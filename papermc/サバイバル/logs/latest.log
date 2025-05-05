@@ -1,78 +1,85 @@
-[00:05:56] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1026-azure (amd64)
-[00:05:56] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-227-ver/1.21.4@7675321 (2025-04-28T19:07:04Z) for Minecraft 1.21.4
-[00:05:56] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:05:57] [ServerMain/ERROR]: [PluginRemapper] Encountered exception remapping plugins
-java.util.concurrent.CompletionException: java.lang.RuntimeException: Failed to open plugin jar plugins/playit-minecraft-plugin.jar
-	at java.base/java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:413) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2118) ~[?:?]
-	at io.papermc.paper.pluginremap.PluginRemapper.waitForAll(PluginRemapper.java:410) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	at io.papermc.paper.pluginremap.PluginRemapper.rewritePluginDirectory(PluginRemapper.java:206) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.prepareContext(DirectoryProviderSource.java:42) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.prepareContext(DirectoryProviderSource.java:17) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:14) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	at net.minecraft.server.Main.main(Main.java:111) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.RuntimeException: Failed to open plugin jar plugins/playit-minecraft-plugin.jar
-	at io.papermc.paper.pluginremap.PluginRemapper.remap(PluginRemapper.java:339) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	at io.papermc.paper.pluginremap.PluginRemapper.remapPlugin(PluginRemapper.java:266) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	at io.papermc.paper.pluginremap.PluginRemapper.rewritePluginDirectory(PluginRemapper.java:204) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	... 9 more
-Caused by: java.util.zip.ZipException: zip END header not found
-	at jdk.zipfs@21.0.6/jdk.nio.zipfs.ZipFileSystem.findEND(ZipFileSystem.java:1320) ~[jdk.zipfs:?]
-	at jdk.zipfs@21.0.6/jdk.nio.zipfs.ZipFileSystem.initCEN(ZipFileSystem.java:1541) ~[jdk.zipfs:?]
-	at jdk.zipfs@21.0.6/jdk.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:179) ~[jdk.zipfs:?]
-	at jdk.zipfs@21.0.6/jdk.nio.zipfs.ZipFileSystemProvider.getZipFileSystem(ZipFileSystemProvider.java:125) ~[jdk.zipfs:?]
-	at jdk.zipfs@21.0.6/jdk.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:120) ~[jdk.zipfs:?]
-	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:528) ~[?:?]
-	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:440) ~[?:?]
-	at io.papermc.paper.pluginremap.PluginRemapper.remap(PluginRemapper.java:290) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	at io.papermc.paper.pluginremap.PluginRemapper.remapPlugin(PluginRemapper.java:266) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	at io.papermc.paper.pluginremap.PluginRemapper.rewritePluginDirectory(PluginRemapper.java:204) ~[paper-1.21.4.jar:1.21.4-227-7675321]
-	... 9 more
-[00:05:57] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[00:06:04] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:06:07] [ServerMain/INFO]: Loaded 1370 recipes
-[00:06:07] [ServerMain/INFO]: Loaded 1481 advancements
-[00:06:07] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[00:06:08] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 365.7ms
-[00:06:08] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[00:06:08] [Server thread/INFO]: Loading properties
-[00:06:08] [Server thread/INFO]: This server is running Paper version 1.21.4-227-ver/1.21.4@7675321 (2025-04-28T19:07:04Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[00:06:08] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[00:06:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:06:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:06:09] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[00:06:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[00:06:10] [Server thread/INFO]: Default game type: SURVIVAL
-[00:06:10] [Server thread/INFO]: Generating keypair
-[00:06:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:06:10] [Server thread/INFO]: Using epoll channel type
-[00:06:10] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:06:10] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:06:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:06:10] [Server thread/INFO]: Preparing level "world"
-[00:06:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:06:12] [Server thread/INFO]: Preparing spawn area: 0%
-[00:06:12] [Server thread/INFO]: Preparing spawn area: 0%
-[00:06:12] [Server thread/INFO]: Preparing spawn area: 0%
-[00:06:13] [Server thread/INFO]: Preparing spawn area: 22%
-[00:06:13] [Server thread/INFO]: Time elapsed: 1940 ms
-[00:06:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:06:13] [Server thread/INFO]: Preparing spawn area: 0%
-[00:06:13] [Server thread/INFO]: Time elapsed: 349 ms
-[00:06:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:06:13] [Server thread/INFO]: Preparing spawn area: 0%
-[00:06:14] [Server thread/INFO]: Time elapsed: 216 ms
-[00:06:14] [Server thread/INFO]: [spark] Starting background profiler...
-[00:06:14] [Server thread/INFO]: Done preparing level "world" (3.915s)
-[00:06:14] [Server thread/INFO]: Running delayed init tasks
-[00:06:14] [Server thread/INFO]: Done (19.492s)! For help, type "help"
-[00:10:15] [User Authenticator #0/INFO]: UUID of player bananaumaiyo is fae0988f-bacf-4b8e-aa9d-28226778b36b
-[00:10:17] [Server thread/INFO]: bananaumaiyo joined the game
-[00:10:17] [Server thread/INFO]: bananaumaiyo[/127.248.81.7:60449] logged in with entity id 20 at ([world]-575.5, 86.0, -592.5)
-[00:10:20] [Server thread/INFO]: bananaumaiyo lost connection: Disconnected
-[00:10:20] [Server thread/INFO]: bananaumaiyo left the game
+[00:14:03] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1026-azure (amd64)
+[00:14:03] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-227-ver/1.21.4@7675321 (2025-04-28T19:07:04Z) for Minecraft 1.21.4
+[00:14:03] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:14:05] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[00:14:05] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Geyser-Spigot (2.7.0-SNAPSHOT), GeyserUpdater (1.6.4), ViaBackwards (5.3.2), ViaVersion (5.3.3-SNAPSHOT), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[00:14:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:14:15] [ServerMain/INFO]: Loaded 1370 recipes
+[00:14:15] [ServerMain/INFO]: Loaded 1481 advancements
+[00:14:15] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[00:14:15] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 339.0ms
+[00:14:16] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[00:14:16] [Server thread/INFO]: Loading properties
+[00:14:16] [Server thread/INFO]: This server is running Paper version 1.21.4-227-ver/1.21.4@7675321 (2025-04-28T19:07:04Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[00:14:16] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:14:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:14:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:14:18] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:14:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[00:14:18] [Server thread/INFO]: Default game type: SURVIVAL
+[00:14:18] [Server thread/INFO]: Generating keypair
+[00:14:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:14:18] [Server thread/INFO]: Using epoll channel type
+[00:14:18] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:14:18] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[00:14:19] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:14:20] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[00:14:20] [Server thread/INFO]: [floodgate] Took 1,216ms to boot Floodgate
+[00:14:20] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.3-SNAPSHOT
+[00:14:20] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[00:14:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:14:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:14:22] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:14:22] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[00:14:23] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[00:14:24] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[00:14:24] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[00:14:24] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[00:14:24] [Server thread/INFO]: [GeyserUpdater] Loading server plugin GeyserUpdater v1.6.4
+[00:14:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:14:24] [Server thread/INFO]: Preparing level "world"
+[00:14:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:14:25] [Server thread/INFO]: Preparing spawn area: 0%
+[00:14:26] [Server thread/INFO]: Preparing spawn area: 2%
+[00:14:26] [Server thread/INFO]: Preparing spawn area: 2%
+[00:14:27] [Server thread/INFO]: Preparing spawn area: 4%
+[00:14:27] [Server thread/INFO]: Preparing spawn area: 4%
+[00:14:27] [Server thread/INFO]: Time elapsed: 2313 ms
+[00:14:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:14:28] [Server thread/INFO]: Preparing spawn area: 0%
+[00:14:28] [Server thread/INFO]: Time elapsed: 450 ms
+[00:14:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:14:28] [Server thread/INFO]: Preparing spawn area: 0%
+[00:14:28] [Server thread/INFO]: Time elapsed: 269 ms
+[00:14:28] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:14:29] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
+[00:14:29] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[00:14:29] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[00:14:30] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[00:14:30] [Server thread/INFO]: [GeyserUpdater] Enabling GeyserUpdater v1.6.4
+[00:14:30] [Server thread/INFO]: [spark] Starting background profiler...
+[00:14:31] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:14:31] [Server thread/INFO]: [Geyser-Spigot] 
+[00:14:31] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b821 (git-master-3c51e46)
+[00:14:31] [Server thread/INFO]: [Geyser-Spigot] 
+[00:14:31] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:14:40] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[00:14:40] [Server thread/INFO]: [Geyser-Spigot] Done (9.769s)! Run /geyser help for help!
+[00:14:41] [Server thread/INFO]: Done preparing level "world" (16.495s)
+[00:14:41] [Server thread/INFO]: Running delayed init tasks
+[00:14:41] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:14:41] [Server thread/INFO]: Done (39.047s)! For help, type "help"
+[00:14:41] [Craft Scheduler Thread - 1 - GeyserUpdater/INFO]: [GeyserUpdater] You are using the latest version of GeyserUpdater!
+[00:14:41] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[00:15:22] [User Authenticator #0/INFO]: UUID of player bananaumaiyo is fae0988f-bacf-4b8e-aa9d-28226778b36b
+[00:15:22] [Server thread/INFO]: bananaumaiyo joined the game
+[00:15:23] [Server thread/INFO]: bananaumaiyo[/127.248.81.7:51983] logged in with entity id 63 at ([world]-575.5, 86.0, -592.5)
+[00:15:42] [Server thread/INFO]: bananaumaiyo fell from a high place
+[00:15:46] [Server thread/INFO]: bananaumaiyo lost connection: Disconnected
+[00:15:46] [Server thread/INFO]: bananaumaiyo left the game
+[00:15:52] [User Authenticator #0/INFO]: UUID of player bananaumaiyo is fae0988f-bacf-4b8e-aa9d-28226778b36b
+[00:15:53] [Server thread/INFO]: bananaumaiyo joined the game
+[00:15:53] [Server thread/INFO]: bananaumaiyo[/127.248.81.7:38977] logged in with entity id 159 at ([world]-574.3000000119209, 86.0, -592.6360597617893)
+[00:16:03] [Server thread/INFO]: bananaumaiyo lost connection: Disconnected
+[00:16:03] [Server thread/INFO]: bananaumaiyo left the game
