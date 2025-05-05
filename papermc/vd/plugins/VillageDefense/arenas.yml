@@ -1,0 +1,46 @@
+instances:
+  VD-Quarry:
+    lobbylocation: VD-Quarry,4.448814595173955,80.0,-0.7195848743619543,180.29965,0.5998965
+    startlocation: VD-Quarry,4.448814595173955,80.0,-0.7195848743619543,180.29965,0.5998965
+    endlocation: VD-Quarry,-25.67,94.0,44.45,94.55,3.93
+    spectatorlocation: VD-Quarry,-0.26,86.97,6.21,-154.95,32.25
+    minimumplayers: 1
+    maximumplayers: 5
+    mapname: §aQuarry
+    world: VD-Quarry
+    isdone: true
+    shop: VD-Quarry,-20.0,78.0,59.0,0.0,0.0
+    signs:
+    - VD-Quarry,-28,95,44,0.0,0.0
+    villagerspawns:
+    - VD-Quarry,10.254752582429692,83.0,12.765226316300364,179.6991,10.949907
+    - VD-Quarry,-11.312034667127135,80.0,22.525164272761195,190.64874,6.5998974
+    - VD-Quarry,-15.862949952155553,83.0,5.7966902884625044,95.54944,5.849896
+    zombiespawns:
+    - VD-Quarry,-9.229380732921639,80.0,-32.69999998807907,0.8983154,3.149897
+    - VD-Quarry,4.538891764652151,80.0,-36.46200513999568,0.14880371,1.9498942
+    - VD-Quarry,16.44120807840935,80.0,-35.40246900409735,359.99854,2.099894
+    doors:
+    - VD-Quarry,-9,84,20,0.0,0.0
+    - VD-Quarry,-9,83,20,0.0,0.0
+    - VD-Quarry,-12,81,18,0.0,0.0
+    - VD-Quarry,-12,80,18,0.0,0.0
+    - VD-Quarry,-12,81,18,0.0,0.0
+    - VD-Quarry,-12,81,18,0.0,0.0
+    - VD-Quarry,-12,80,18,0.0,0.0
+    - VD-Quarry,10,81,8,0.0,0.0
+    - VD-Quarry,10,80,8,0.0,0.0
+    - VD-Quarry,10,84,15,0.0,0.0
+    - VD-Quarry,10,83,15,0.0,0.0
+    - VD-Quarry,4,84,20,0.0,0.0
+    - VD-Quarry,4,83,20,0.0,0.0
+    - VD-Quarry,-24,84,6,0.0,0.0
+    - VD-Quarry,-24,83,6,0.0,0.0
+    - VD-Quarry,-15,87,6,0.0,0.0
+    - VD-Quarry,-15,86,6,0.0,0.0
+# Don't edit it. But who's stopping you? It's your server!
+# Really, don't edit ;p
+# You edited it, huh? Next time hurt yourself!
+Do-Not-Edit:
+  File-Version: 0
+  Core-Version: 1

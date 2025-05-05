@@ -1,0 +1,247 @@
+[04:39:13] [ServerMain/ERROR]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
+	at java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
+	at net.minecraft.server.dedicated.Settings.loadFromFile(Settings.java:57) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.fromFile(DedicatedServerProperties.java:178) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.dedicated.DedicatedServerSettings.<init>(DedicatedServerSettings.java:19) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.Main.main(Main.java:131) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.craftbukkit.Main.main(Main.java:316) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:39:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:39:14] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[04:39:16] [ServerMain/INFO]: Loaded 7 recipes
+[04:39:17] [Server thread/INFO]: Starting minecraft server version 1.20
+[04:39:17] [Server thread/INFO]: Loading properties
+[04:39:17] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[04:39:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:39:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:39:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[04:39:17] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[04:39:17] [Server thread/INFO]: Default game type: SURVIVAL
+[04:39:17] [Server thread/INFO]: Generating keypair
+[04:39:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:39:18] [Server thread/INFO]: Using epoll channel type
+[04:39:18] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:39:18] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:39:19] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[04:39:20] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[04:39:20] [Server thread/INFO]: [floodgate] Took 1,040ms to boot Floodgate
+[04:39:20] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.3-SNAPSHOT
+[04:39:20] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[04:39:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[04:39:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[04:39:21] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[04:39:21] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[04:39:22] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[04:39:23] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[04:39:23] [Server thread/INFO]: [Geyser-Spigot] Enabled extension MCXboxBroadcast
+[04:39:23] [Server thread/INFO]: [Geyser-Spigot] Loaded 1 extension(s)
+[04:39:23] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[04:39:23] [Server thread/INFO]: [GeyserUpdater] Loading server plugin GeyserUpdater v1.6.4
+[04:39:23] [Server thread/INFO]: [VillageDefense] Loading server plugin VillageDefense v4.7.1
+[04:39:23] [Server thread/INFO]: Preparing level "world"
+[04:39:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:39:40] [Server thread/INFO]: Time elapsed: 296 ms
+[04:39:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:39:41] [Server thread/INFO]: Time elapsed: 227 ms
+[04:39:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:39:41] [Server thread/INFO]: Time elapsed: 336 ms
+[04:39:41] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[04:39:42] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
+[04:39:42] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[04:39:42] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[04:39:42] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[04:39:42] [Server thread/INFO]: [GeyserUpdater] Enabling GeyserUpdater v1.6.4
+[04:39:42] [Server thread/INFO]: [VillageDefense] Enabling VillageDefense v4.7.1
+[04:39:43] [Server thread/INFO]: [VillageDefense] Connecting to services, please wait! Server may freeze a bit!
+[04:39:43] [Server thread/INFO]: [VillageDefense] Hooked with ServiceRegistry! Initialized services properly!
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Fetched latest localization file from repository.
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] §aLoaded locale Default (Default ID: default) by Internal Plugin
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
+[04:39:44] [Server thread/INFO]: [VillageDefense] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-
+[04:39:44] [Server thread/INFO]: [VillageDefense] 
+[04:39:44] [Server thread/INFO]: [VillageDefense] Versions: 
+[04:39:44] [Server thread/INFO]: [VillageDefense] Plugin: 4.7.1 | Server: git-Paper-17 (MC: 1.20) | Detected: v1_20_R1 | Software: Paper | Java: 21.0.6
+[04:39:44] [Server thread/INFO]: [VillageDefense] 
+[04:39:44] [Server thread/INFO]: [VillageDefense] This plugin was created by Plugily Projects as part of an open source project ( https://donate.plugily.xyz )
+[04:39:44] [Server thread/INFO]: [VillageDefense] 
+[04:39:44] [Server thread/INFO]: [VillageDefense][SUPPORT] If you have any problems, you can always contact us on our Discord server! ( https://discord.plugily.xyz )
+[04:39:44] [Server thread/INFO]: [VillageDefense][SUPPORT] You can also check out our wiki at https://wiki.plugily.xyz
+[04:39:44] [Server thread/INFO]: [VillageDefense] 
+[04:39:44] [Server thread/INFO]: [VillageDefense]                               The plugin got fully enabled! Enjoy the plugin ;)
+[04:39:44] [Server thread/INFO]: [VillageDefense] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section end-wave found. Registering as number reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section zombie-kill not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section end-wave found. Registering as number reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section zombie-kill not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section end-wave found. Registering as number reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section villager-death not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section zombie-kill not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section player-death not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section villager-death not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section end-wave found. Registering as number reward
+[04:39:44] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
+[04:39:45] [Server thread/INFO]: Preparing start region for dimension minecraft:vd-quarry
+[04:39:45] [Server thread/INFO]: Time elapsed: 150 ms
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:39:45] [Server thread/INFO]: Arena Quarry instance successfully started!
+[04:39:46] [Server thread/WARN]: [VillageDefense] [Debug] Block at location VD-Quarry,-28,95,44,0.0,0.0 for arena VD-Quarry added as sign!
+[04:39:46] [Server thread/WARN]: [VillageDefense] [Debug] Block at location VD-Quarry,-28,95,44,0.0,0.0 for arena VD-Quarry added as sign!
+[04:39:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:39:47] [Server thread/INFO]: [Geyser-Spigot] 
+[04:39:47] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b821 (git-master-3c51e46)
+[04:39:47] [Server thread/INFO]: [Geyser-Spigot] 
+[04:39:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:39:57] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[04:39:57] [Server thread/INFO]: [Geyser-Spigot] [mcxboxbroadcast] Starting MCXboxBroadcast Extension build 81 (git-master-567635c)
+[04:39:59] [Server thread/INFO]: [Geyser-Spigot] Done (12.774s)! Run /geyser help for help!
+[04:39:59] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Starting SessionManager...
+[04:40:00] [Server thread/INFO]: Running delayed init tasks
+[04:40:00] [Server thread/INFO]: Done (43.249s)! For help, type "help"
+[04:40:00] [Server thread/INFO]: Timings Reset
+[04:40:00] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[04:40:00] [Craft Scheduler Thread - 6 - GeyserUpdater/INFO]: [GeyserUpdater] You are using the latest version of GeyserUpdater!
+[04:40:00] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[04:40:02] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Successfully authenticated as umaiyoserver (2535456605915541)
+[04:40:03] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creating Xbox LIVE session...
+[04:40:08] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creation of Xbox LIVE session was successful!
+[04:42:06] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username bananaumaiyo
+[04:42:06] [localSession-7-2/INFO]: [Geyser-Spigot] bananaumaiyo (logged in as: bananaumaiyo) has connected to the Java server
+[04:42:07] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .bananaumaiyo is 00000000-0000-0000-0009-01fb7b241f85
+[04:42:07] [Server thread/INFO]: [floodgate] Floodgate player logged in as .bananaumaiyo joined (UUID: 00000000-0000-0000-0009-01fb7b241f85)
+[04:42:10] [Server thread/INFO]: .bananaumaiyo joined the game
+[04:42:10] [Server thread/INFO]: .bananaumaiyo[/127.0.0.1:0] logged in with entity id 625 at ([world]5.5, 105.0, 1.5)
+[04:42:12] [Server thread/INFO]: Made bananaumaiyo a server operator
+[04:42:17] [Server thread/INFO]: Made .bananaumaiyo a server operator
+[04:42:35] [Server thread/INFO]: .bananaumaiyo issued server command: /vda setup edit
+[04:42:42] [Server thread/INFO]: .bananaumaiyo issued server command: /vda setup edit VD-Quarry
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:42:46] [Server thread/INFO]: Arena Quarry instance successfully started!
+[04:42:46] [Server thread/WARN]: [VillageDefense] [Debug] Block at location VD-Quarry,-28,95,44,0.0,0.0 for arena VD-Quarry added as sign!
+[04:42:50] [Server thread/INFO]: .bananaumaiyo issued server command: /gamemode creatove
+[04:42:53] [Server thread/INFO]: .bananaumaiyo issued server command: /gamemode creative
+[04:42:53] [Server thread/INFO]: [.bananaumaiyo: Set own game mode to Creative Mode]
+[04:43:09] [Server thread/INFO]: .bananaumaiyo issued server command: /vd join
+[04:43:14] [Server thread/INFO]: .bananaumaiyo issued server command: /vd arenas
+[04:43:16] [Server thread/INFO]: [VillageDefense] Saved inventory of .bananaumaiyo
+[04:43:25] [Server thread/INFO]: [VillageDefense] Loaded inventory of .bananaumaiyo
+[04:43:25] [Server thread/WARN]: .bananaumaiyo moved too quickly! -35.407374000000004,14.0,39.934447500000005
+[04:43:25] [Server thread/WARN]: .bananaumaiyo moved too quickly! -35.407374000000004,14.0,39.934447500000005
+[04:43:25] [Server thread/WARN]: .bananaumaiyo moved too quickly! -35.407374000000004,14.0,39.934447500000005
+[04:43:36] [User Authenticator #0/INFO]: UUID of player bananaumaiyo is fae0988f-bacf-4b8e-aa9d-28226778b36b
+[04:43:36] [Server thread/INFO]: bananaumaiyo joined the game
+[04:43:36] [Server thread/INFO]: bananaumaiyo[/127.248.81.7:41731] logged in with entity id 973 at ([world]-4.5, 110.0, 4.5)
+[04:43:42] [Server thread/INFO]: bananaumaiyo issued server command: /vd arenas
+[04:43:43] [Server thread/INFO]: [VillageDefense] Saved inventory of bananaumaiyo
+[04:43:46] [Server thread/INFO]: [VillageDefense] Loaded inventory of bananaumaiyo
+[04:44:28] [Server thread/INFO]: Stopping the server
+[04:44:28] [Server thread/INFO]: Stopping server
+[04:44:28] [Server thread/INFO]: [VillageDefense] Disabling VillageDefense v4.7.1
+[04:44:28] [Server thread/INFO]: [GeyserUpdater] Disabling GeyserUpdater v1.6.4
+[04:44:28] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[04:44:28] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[04:44:28] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[04:44:28] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
+[04:44:28] [Server thread/INFO]: [Geyser-Spigot] bananaumaiyo has disconnected from the Java server because of Geyser Proxy をシャットダウンしています。
+[04:44:28] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .bananaumaiyo disconnected
+[04:44:28] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
+[04:44:28] [Server thread/INFO]: [Geyser-Spigot] Disabled extension MCXboxBroadcast
+[04:44:28] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[04:44:28] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.3-SNAPSHOT
+[04:44:28] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[04:44:28] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[04:44:28] [Server thread/INFO]: Saving players
+[04:44:28] [WebSocketConnectReadThread-119/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] RTC Websocket disconnected:  (1000)
+[04:44:28] [Server thread/INFO]: .bananaumaiyo lost connection: Server closed
+[04:44:28] [Server thread/INFO]: .bananaumaiyo left the game
+[04:44:28] [Server thread/INFO]: bananaumaiyo lost connection: Server closed
+[04:44:28] [Server thread/INFO]: bananaumaiyo left the game
+[04:44:28] [Server thread/INFO]: Saving worlds
+[04:44:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:44:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:44:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:44:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:44:28] [WebSocketConnectReadThread-80/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[04:44:34] [Server thread/INFO]: [ChunkHolderManager] Saved 2209 block chunks, 725 entity chunks, 4 poi chunks in world 'world' in 5.75s
+[04:44:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:44:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:44:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:44:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:44:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:44:36] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 2.05s
+[04:44:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:44:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:44:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:44:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:44:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:44:38] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 1.45s
+[04:44:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:44:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[VD-Quarry]'/minecraft:vd-quarry
+[04:44:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'VD-Quarry'
+[04:44:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'VD-Quarry'
+[04:44:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'VD-Quarry'
+[04:44:39] [Server thread/INFO]: [ChunkHolderManager] Saved 732 block chunks, 732 entity chunks, 0 poi chunks in world 'VD-Quarry' in 1.20s
+[04:44:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (VD-Quarry): All chunks are saved
+[04:44:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:44:39] [Server thread/INFO]: Flushing Chunk IO
+[04:44:39] [Server thread/INFO]: Closing Thread Pool
+[04:44:39] [Server thread/INFO]: Closing Server
