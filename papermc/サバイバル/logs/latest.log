@@ -83,3 +83,448 @@
 [00:15:53] [Server thread/INFO]: bananaumaiyo[/127.248.81.7:38977] logged in with entity id 159 at ([world]-574.3000000119209, 86.0, -592.6360597617893)
 [00:16:03] [Server thread/INFO]: bananaumaiyo lost connection: Disconnected
 [00:16:03] [Server thread/INFO]: bananaumaiyo left the game
+[00:23:50] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[00:23:50] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[00:23:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:23:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:23:50] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:23:50] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[00:23:50] [Server thread/INFO]: [GeyserUpdater] Disabling GeyserUpdater v1.6.4
+[00:23:50] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[00:23:50] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[00:23:50] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[00:23:50] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[00:23:50] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.3-SNAPSHOT
+[00:23:50] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[00:23:50] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:23:50] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:23:51] [WebSocketConnectReadThread-84/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[00:23:52] [Server thread/INFO]: Loaded 1370 recipes
+[00:23:52] [Server thread/INFO]: Loaded 1481 advancements
+[00:23:52] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:23:52] [Server thread/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[00:23:52] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Geyser-Spigot (2.7.0-SNAPSHOT), GeyserUpdater (1.6.4), ViaBackwards (5.3.2), ViaVersion (5.3.3-SNAPSHOT), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[00:23:53] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:23:53] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[00:23:53] [Server thread/INFO]: [floodgate] Took 649ms to boot Floodgate
+[00:23:53] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.3-SNAPSHOT
+[00:23:53] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[00:23:53] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[00:23:54] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:23:54] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:23:55] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:23:55] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[00:23:56] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[00:23:57] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[00:23:57] [Server thread/INFO]: [Geyser-Spigot] Enabled extension MCXboxBroadcast
+[00:23:57] [Server thread/INFO]: [Geyser-Spigot] Loaded 1 extension(s)
+[00:23:57] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[00:23:57] [Server thread/INFO]: [GeyserUpdater] Loading server plugin GeyserUpdater v1.6.4
+[00:23:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:23:57] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:23:57] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[00:23:57] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1004)
+[00:23:57] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:260)
+[00:23:57] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.internalAdd(DefaultChannelPipeline.java:167)
+[00:23:57] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:209)
+[00:23:57] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:151)
+[00:23:57] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[00:23:57] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[00:23:57] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[00:23:57] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70)
+[00:23:57] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+[00:23:57] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[00:23:57] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[00:23:57] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[00:23:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658)
+[00:23:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
+[00:23:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1151)
+[00:23:57] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1038)
+[00:23:57] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[00:23:57] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165)
+[00:23:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1018)
+[00:23:57] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:1003)
+[00:23:57] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:478)
+[00:23:57] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:428)
+[00:23:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1738)
+[00:23:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529)
+[00:23:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251)
+[00:23:57] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[00:23:57] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:23:57] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
+[00:23:57] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[00:23:57] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[00:23:58] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[00:23:58] [Server thread/INFO]: [GeyserUpdater] Enabling GeyserUpdater v1.6.4
+[00:23:58] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:23:58] [Server thread/INFO]: [Geyser-Spigot] 
+[00:23:58] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b821 (git-master-3c51e46)
+[00:23:58] [Server thread/INFO]: [Geyser-Spigot] 
+[00:23:58] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:24:03] [epollEventLoopGroup-9-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[00:24:03] [Server thread/INFO]: [Geyser-Spigot] [mcxboxbroadcast] Starting MCXboxBroadcast Extension build 81 (git-master-567635c)
+[00:24:05] [Server thread/INFO]: [Geyser-Spigot] Done (7.215s)! Run /geyser help for help!
+[00:24:05] [Server thread/INFO]: CONSOLE: Reload complete.
+[00:24:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15456ms or 309 ticks behind
+[00:24:05] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:24:05] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Starting SessionManager...
+[00:24:05] [Craft Scheduler Thread - 6 - GeyserUpdater/INFO]: [GeyserUpdater] You are using the latest version of GeyserUpdater!
+[00:24:05] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[00:24:05] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] Getting device code for MSA login...
+[00:24:06] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] Got MSA device code, expires: 2025-05-05T00:39:06.450Z[Etc/UTC]
+[00:24:06] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] To sign in, use a web browser to open the page https://www.microsoft.com/link and enter the code 5LU3PLZG to authenticate.
+[00:24:06] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] Waiting for MSA login via device code...
+[00:25:35] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] Got MSA Token, expires: 2025-05-06T00:25:35.058Z[Etc/UTC]
+[00:25:35] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] Authenticating device with Xbox Live...
+[00:25:36] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] Got XBL Device Token, expires: 2025-05-19T00:25:36.018Z[Etc/UTC]
+[00:25:36] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] Authenticating with Xbox Live using SISU...
+[00:25:37] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] Got XBL User+Title+XSTS Token, expires: 2025-05-05T16:25:36.959Z[Etc/UTC]
+[00:25:38] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Successfully authenticated as umaiyoserver (2535456605915541)
+[00:25:39] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creating Xbox LIVE session...
+[00:25:43] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creation of Xbox LIVE session was successful!
+[00:32:25] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[00:32:25] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[00:32:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:32:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:32:25] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:32:25] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[00:32:25] [Server thread/INFO]: [GeyserUpdater] Disabling GeyserUpdater v1.6.4
+[00:32:25] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[00:32:25] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[00:32:25] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[00:32:25] [Server thread/INFO]: [Geyser-Spigot] Disabled extension MCXboxBroadcast
+[00:32:25] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[00:32:25] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.3-SNAPSHOT
+[00:32:25] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[00:32:25] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:32:25] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:32:25] [WebSocketConnectReadThread-270/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] RTC Websocket disconnected:  (1000)
+[00:32:26] [WebSocketConnectReadThread-170/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[00:32:26] [Server thread/INFO]: Loaded 1370 recipes
+[00:32:26] [Server thread/INFO]: Loaded 1481 advancements
+[00:32:26] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:32:27] [Server thread/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[00:32:27] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Geyser-Spigot (2.7.0-SNAPSHOT), GeyserUpdater (1.6.4), ViaBackwards (5.3.2), ViaVersion (5.3.3-SNAPSHOT), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[00:32:27] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:32:28] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[00:32:28] [Server thread/INFO]: [floodgate] Took 1,219ms to boot Floodgate
+[00:32:28] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.3-SNAPSHOT
+[00:32:28] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[00:32:28] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[00:32:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:32:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:32:30] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:32:30] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[00:32:31] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[00:32:31] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[00:32:31] [Server thread/INFO]: [Geyser-Spigot] Enabled extension MCXboxBroadcast
+[00:32:31] [Server thread/INFO]: [Geyser-Spigot] Loaded 1 extension(s)
+[00:32:31] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[00:32:31] [Server thread/INFO]: [GeyserUpdater] Loading server plugin GeyserUpdater v1.6.4
+[00:32:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:32:31] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:32:31] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[00:32:31] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1004)
+[00:32:31] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:260)
+[00:32:31] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.internalAdd(DefaultChannelPipeline.java:167)
+[00:32:31] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:209)
+[00:32:31] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:151)
+[00:32:31] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[00:32:31] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[00:32:31] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[00:32:31] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70)
+[00:32:31] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+[00:32:31] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[00:32:31] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[00:32:31] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[00:32:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658)
+[00:32:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
+[00:32:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1151)
+[00:32:31] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1038)
+[00:32:31] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[00:32:31] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165)
+[00:32:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1018)
+[00:32:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:1003)
+[00:32:31] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:478)
+[00:32:31] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:428)
+[00:32:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1738)
+[00:32:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529)
+[00:32:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251)
+[00:32:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[00:32:31] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:32:32] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
+[00:32:32] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[00:32:32] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[00:32:32] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[00:32:32] [Server thread/INFO]: [GeyserUpdater] Enabling GeyserUpdater v1.6.4
+[00:32:32] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:32:32] [Server thread/INFO]: [Geyser-Spigot] 
+[00:32:32] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b821 (git-master-3c51e46)
+[00:32:32] [Server thread/INFO]: [Geyser-Spigot] 
+[00:32:32] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:32:36] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[00:32:37] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[00:32:37] [Server thread/INFO]: [Geyser-Spigot] [mcxboxbroadcast] Starting MCXboxBroadcast Extension build 81 (git-master-567635c)
+[00:32:38] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Starting SessionManager...
+[00:32:38] [Server thread/INFO]: [Geyser-Spigot] Done (5.604s)! Run /geyser help for help!
+[00:32:38] [Server thread/INFO]: CONSOLE: Reload complete.
+[00:32:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13495ms or 269 ticks behind
+[00:32:38] [Craft Scheduler Thread - 8 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:32:38] [Craft Scheduler Thread - 9 - GeyserUpdater/INFO]: [GeyserUpdater] You are using the latest version of GeyserUpdater!
+[00:32:38] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[00:32:40] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Successfully authenticated as umaiyoserver (2535456605915541)
+[00:32:41] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creating Xbox LIVE session...
+[00:32:45] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creation of Xbox LIVE session was successful!
+[00:37:45] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[00:37:45] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[00:37:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:37:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:37:46] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:37:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[00:37:46] [Server thread/INFO]: [GeyserUpdater] Disabling GeyserUpdater v1.6.4
+[00:37:46] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[00:37:46] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[00:37:46] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[00:37:46] [Server thread/INFO]: [Geyser-Spigot] Disabled extension MCXboxBroadcast
+[00:37:46] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[00:37:46] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.3-SNAPSHOT
+[00:37:46] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[00:37:46] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:37:46] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:37:46] [WebSocketConnectReadThread-419/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] RTC Websocket disconnected:  (1000)
+[00:37:46] [WebSocketConnectReadThread-386/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[00:37:47] [Server thread/INFO]: Loaded 1370 recipes
+[00:37:47] [Server thread/INFO]: Loaded 1481 advancements
+[00:37:47] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:37:47] [Server thread/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[00:37:47] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Geyser-Spigot (2.7.0-SNAPSHOT), GeyserUpdater (1.6.4), ViaBackwards (5.3.2), ViaVersion (5.3.3-SNAPSHOT), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[00:37:47] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:37:48] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[00:37:48] [Server thread/INFO]: [floodgate] Took 1,126ms to boot Floodgate
+[00:37:48] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.3-SNAPSHOT
+[00:37:48] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[00:37:48] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[00:37:49] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:37:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:37:50] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:37:50] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[00:37:51] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[00:37:51] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[00:37:51] [Server thread/INFO]: [Geyser-Spigot] Enabled extension MCXboxBroadcast
+[00:37:51] [Server thread/INFO]: [Geyser-Spigot] Loaded 1 extension(s)
+[00:37:51] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[00:37:51] [Server thread/INFO]: [GeyserUpdater] Loading server plugin GeyserUpdater v1.6.4
+[00:37:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:37:51] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:37:51] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[00:37:51] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1004)
+[00:37:51] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:260)
+[00:37:51] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.internalAdd(DefaultChannelPipeline.java:167)
+[00:37:51] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:209)
+[00:37:51] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:151)
+[00:37:51] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[00:37:51] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[00:37:51] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[00:37:51] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70)
+[00:37:51] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+[00:37:51] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[00:37:51] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[00:37:51] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[00:37:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658)
+[00:37:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
+[00:37:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1151)
+[00:37:51] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1038)
+[00:37:51] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[00:37:51] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165)
+[00:37:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1018)
+[00:37:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:1003)
+[00:37:51] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:478)
+[00:37:51] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:428)
+[00:37:51] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1738)
+[00:37:51] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529)
+[00:37:51] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251)
+[00:37:51] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[00:37:51] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:37:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
+[00:37:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[00:37:52] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[00:37:52] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[00:37:52] [Server thread/INFO]: [GeyserUpdater] Enabling GeyserUpdater v1.6.4
+[00:37:52] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:37:52] [Server thread/INFO]: [Geyser-Spigot] 
+[00:37:52] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b821 (git-master-3c51e46)
+[00:37:52] [Server thread/INFO]: [Geyser-Spigot] 
+[00:37:52] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:37:58] [epollEventLoopGroup-21-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[00:37:58] [Server thread/INFO]: [Geyser-Spigot] [mcxboxbroadcast] Starting MCXboxBroadcast Extension build 81 (git-master-567635c)
+[00:37:59] [Server thread/INFO]: [Geyser-Spigot] Done (6.28s)! Run /geyser help for help!
+[00:37:59] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Starting SessionManager...
+[00:37:59] [Server thread/INFO]: CONSOLE: Reload complete.
+[00:37:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13383ms or 267 ticks behind
+[00:37:59] [Craft Scheduler Thread - 11 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:37:59] [Craft Scheduler Thread - 12 - GeyserUpdater/INFO]: [GeyserUpdater] You are using the latest version of GeyserUpdater!
+[00:37:59] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[00:38:01] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Successfully authenticated as umaiyoserver (2535456605915541)
+[00:38:01] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creating Xbox LIVE session...
+[00:38:05] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creation of Xbox LIVE session was successful!
+[00:38:20] [epollEventLoopGroup-22-1/INFO]: [Geyser-Spigot] Player connected with username bananaumaiyo
+[00:38:20] [localSession-25-2/INFO]: [Geyser-Spigot] bananaumaiyo (logged in as: bananaumaiyo) has connected to the Java server
+[00:38:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as .bananaumaiyo joined (UUID: 00000000-0000-0000-0009-01fb7b241f85)
+[00:38:21] [Server thread/INFO]: .bananaumaiyo joined the game
+[00:38:21] [Server thread/INFO]: .bananaumaiyo[/127.0.0.1:0] logged in with entity id 218 at ([world]-569.5, 85.0, -586.5)
+[00:38:30] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[00:38:30] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[00:38:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:38:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:38:30] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:38:30] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[00:38:30] [Server thread/INFO]: [GeyserUpdater] Disabling GeyserUpdater v1.6.4
+[00:38:30] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[00:38:30] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[00:38:30] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[00:38:30] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
+[00:38:30] [Server thread/INFO]: [Geyser-Spigot] bananaumaiyo has disconnected from the Java server because of Geyser Proxy をシャットダウンしています。
+[00:38:30] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
+[00:38:30] [Geyser Spigot connection thread-24-3/INFO]: [floodgate] Floodgate player logged in as .bananaumaiyo disconnected
+[00:38:30] [Server thread/INFO]: [Geyser-Spigot] Disabled extension MCXboxBroadcast
+[00:38:30] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[00:38:30] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.3-SNAPSHOT
+[00:38:30] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[00:38:30] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:38:30] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:38:30] [WebSocketConnectReadThread-537/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] RTC Websocket disconnected:  (1000)
+[00:38:31] [WebSocketConnectReadThread-502/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[00:38:32] [Server thread/INFO]: Loaded 1370 recipes
+[00:38:32] [Server thread/INFO]: Loaded 1481 advancements
+[00:38:32] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:38:32] [Server thread/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[00:38:32] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Geyser-Spigot (2.7.0-SNAPSHOT), GeyserUpdater (1.6.4), ViaBackwards (5.3.2), ViaVersion (5.3.3-SNAPSHOT), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[00:38:33] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:38:34] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[00:38:34] [Server thread/INFO]: [floodgate] Took 1,265ms to boot Floodgate
+[00:38:34] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.3-SNAPSHOT
+[00:38:34] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[00:38:34] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[00:38:35] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:38:36] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:38:36] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[00:38:36] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:38:36] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[00:38:37] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[00:38:38] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[00:38:38] [Server thread/INFO]: [Geyser-Spigot] Enabled extension MCXboxBroadcast
+[00:38:38] [Server thread/INFO]: [Geyser-Spigot] Loaded 1 extension(s)
+[00:38:38] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[00:38:38] [Server thread/INFO]: [GeyserUpdater] Loading server plugin GeyserUpdater v1.6.4
+[00:38:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:38:38] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:38:38] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[00:38:38] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1004)
+[00:38:38] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:260)
+[00:38:38] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.internalAdd(DefaultChannelPipeline.java:167)
+[00:38:38] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:209)
+[00:38:38] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:151)
+[00:38:38] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[00:38:38] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[00:38:38] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[00:38:38] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70)
+[00:38:38] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+[00:38:38] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[00:38:38] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[00:38:38] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[00:38:38] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658)
+[00:38:38] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
+[00:38:38] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1151)
+[00:38:38] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1038)
+[00:38:38] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[00:38:38] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165)
+[00:38:38] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1018)
+[00:38:38] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:1003)
+[00:38:38] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:478)
+[00:38:38] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:428)
+[00:38:38] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1738)
+[00:38:38] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529)
+[00:38:38] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251)
+[00:38:38] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[00:38:38] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:38:39] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
+[00:38:39] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[00:38:39] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[00:38:39] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[00:38:39] [Server thread/INFO]: [GeyserUpdater] Enabling GeyserUpdater v1.6.4
+[00:38:39] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:38:39] [Server thread/INFO]: [Geyser-Spigot] 
+[00:38:39] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b821 (git-master-3c51e46)
+[00:38:39] [Server thread/INFO]: [Geyser-Spigot] 
+[00:38:39] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[00:38:45] [epollEventLoopGroup-27-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[00:38:45] [Server thread/INFO]: [Geyser-Spigot] [mcxboxbroadcast] Starting MCXboxBroadcast Extension build 81 (git-master-567635c)
+[00:38:47] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Starting SessionManager...
+[00:38:47] [Server thread/INFO]: [Geyser-Spigot] Done (7.088s)! Run /geyser help for help!
+[00:38:47] [Server thread/INFO]: CONSOLE: Reload complete.
+[00:38:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16741ms or 334 ticks behind
+[00:38:47] [Craft Scheduler Thread - 14 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:38:47] [Craft Scheduler Thread - 15 - GeyserUpdater/INFO]: [GeyserUpdater] You are using the latest version of GeyserUpdater!
+[00:38:47] [Server thread/INFO]: .bananaumaiyo lost connection: Disconnected
+[00:38:47] [Server thread/INFO]: .bananaumaiyo left the game
+[00:38:47] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[00:38:48] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Successfully authenticated as umaiyoserver (2535456605915541)
+[00:38:49] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creating Xbox LIVE session...
+[00:38:53] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creation of Xbox LIVE session was successful!
+[00:39:13] [epollEventLoopGroup-28-1/INFO]: [Geyser-Spigot] Player connected with username bananaumaiyo
+[00:39:13] [localSession-31-2/INFO]: [Geyser-Spigot] bananaumaiyo (logged in as: bananaumaiyo) has connected to the Java server
+[00:39:14] [Server thread/INFO]: [floodgate] Floodgate player logged in as .bananaumaiyo joined (UUID: 00000000-0000-0000-0009-01fb7b241f85)
+[00:39:14] [Server thread/INFO]: .bananaumaiyo joined the game
+[00:39:14] [Server thread/INFO]: .bananaumaiyo[/127.0.0.1:0] logged in with entity id 258 at ([world]-569.5, 85.0, -586.5)
+[00:39:22] [epollEventLoopGroup-28-1/INFO]: [Geyser-Spigot] bananaumaiyo has disconnected from the Java server because of Bedrock client disconnected
+[00:39:22] [Geyser Spigot connection thread-30-3/INFO]: [floodgate] Floodgate player logged in as .bananaumaiyo disconnected
+[00:39:22] [Server thread/INFO]: .bananaumaiyo lost connection: Disconnected
+[00:39:22] [Server thread/INFO]: .bananaumaiyo left the game
+[00:40:04] [Server thread/INFO]: Stopping the server
+[00:40:04] [Server thread/INFO]: Stopping server
+[00:40:04] [Server thread/INFO]: [GeyserUpdater] Disabling GeyserUpdater v1.6.4
+[00:40:04] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[00:40:04] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[00:40:04] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[00:40:04] [Server thread/INFO]: [Geyser-Spigot] Disabled extension MCXboxBroadcast
+[00:40:04] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[00:40:04] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.3-SNAPSHOT
+[00:40:04] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:40:04] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:40:04] [Server thread/INFO]: Saving players
+[00:40:05] [WebSocketConnectReadThread-629/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] RTC Websocket disconnected:  (1000)
+[00:40:05] [Server thread/INFO]: Saving worlds
+[00:40:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:40:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[00:40:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[00:40:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[00:40:05] [WebSocketConnectReadThread-598/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Saved 731 block chunks, 254 entity chunks, 3 poi chunks in world 'world' in 1.54s
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[00:40:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[00:40:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[00:40:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[00:40:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:40:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:40:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:40:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:40:06] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[00:40:06] [Server thread/INFO]: All I/O tasks to complete
+[00:40:06] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[00:40:06] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
