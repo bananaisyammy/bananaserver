@@ -1,0 +1,1 @@
+scoreboard players set @a music_number 1

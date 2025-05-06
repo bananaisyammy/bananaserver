@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "00000000-0000-0000-0009-01fb7b241f85",
+    "name": ".bananaumaiyo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "fae0988f-bacf-4b8e-aa9d-28226778b36b",
+    "name": "bananaumaiyo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

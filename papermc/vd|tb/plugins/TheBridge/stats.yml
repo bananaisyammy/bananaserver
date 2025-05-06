@@ -3,10 +3,13 @@ fae0988f-bacf-4b8e-aa9d-28226778b36b:
   next_level_exp: 354
   loses: 1
   level: 1
-  deaths: 2
-  games_played: 1
-  exp: 30
+  deaths: 18
+  games_played: 2
+  exp: 143
   playername: bananaumaiyo
+  scored_points: 5
+  kills: 10
+  wins: 1
 00000000-0000-0000-0009-01fb7b241f85:
   next_level_exp: 354
   level: 1
@@ -17,3 +20,13 @@ fae0988f-bacf-4b8e-aa9d-28226778b36b:
   exp: 89
   wins: 1
   playername: .bananaumaiyo
+00000000-0000-0000-0009-01f33ba78d3c:
+  next_level_exp: 354
+  loses: 1
+  level: 1
+  deaths: 18
+  games_played: 1
+  scored_points: 4
+  kills: 3
+  exp: 84
+  playername: .soso16akym

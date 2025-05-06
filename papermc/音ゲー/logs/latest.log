@@ -1,0 +1,139 @@
+[09:31:02] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1026-azure (amd64)
+[09:31:02] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-227-ver/1.21.4@7675321 (2025-04-28T19:07:04Z) for Minecraft 1.21.4
+[09:31:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[09:31:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[09:31:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - Geyser-Spigot (2.7.0-SNAPSHOT), GeyserUpdater (1.6.4), Multiverse-Core (4.3.14), ViaBackwards (5.3.2), ViaVersion (5.3.3-SNAPSHOT), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[09:31:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:31:10] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[09:31:10] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 532.6ms
+[09:31:13] [ServerMain/INFO]: Loaded 1370 recipes
+[09:31:13] [ServerMain/INFO]: Loaded 1481 advancements
+[09:31:14] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[09:31:14] [Server thread/INFO]: Loading properties
+[09:31:14] [Server thread/INFO]: This server is running Paper version 1.21.4-227-ver/1.21.4@7675321 (2025-04-28T19:07:04Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[09:31:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[09:31:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:31:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:31:16] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[09:31:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[09:31:16] [Server thread/INFO]: Default game type: SURVIVAL
+[09:31:16] [Server thread/INFO]: Generating keypair
+[09:31:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:31:17] [Server thread/INFO]: Using epoll channel type
+[09:31:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[09:31:17] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[09:31:18] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[09:31:19] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[09:31:19] [Server thread/INFO]: [floodgate] Took 968ms to boot Floodgate
+[09:31:19] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.3-SNAPSHOT
+[09:31:19] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[09:31:19] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[09:31:20] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[09:31:21] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[09:31:21] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[09:31:21] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[09:31:22] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[09:31:23] [Server thread/INFO]: [Geyser-Spigot] Enabled extension MCXboxBroadcast
+[09:31:23] [Server thread/INFO]: [Geyser-Spigot] Loaded 1 extension(s)
+[09:31:23] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[09:31:23] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
+[09:31:23] [Server thread/INFO]: [GeyserUpdater] Loading server plugin GeyserUpdater v1.6.4
+[09:31:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:31:23] [Server thread/INFO]: Preparing level "world"
+[09:31:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:31:24] [Server thread/INFO]: Preparing spawn area: 0%
+[09:31:24] [Server thread/INFO]: Preparing spawn area: 0%
+[09:31:24] [Server thread/INFO]: Time elapsed: 937 ms
+[09:31:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:31:24] [Server thread/INFO]: Preparing spawn area: 0%
+[09:31:25] [Server thread/INFO]: Time elapsed: 500 ms
+[09:31:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:31:25] [Server thread/INFO]: Preparing spawn area: 0%
+[09:31:25] [Server thread/INFO]: Time elapsed: 244 ms
+[09:31:25] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[09:31:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
+[09:31:26] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[09:31:26] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[09:31:26] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[09:31:26] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
+[09:31:26] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[09:31:26] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[09:31:26] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: Rhythm
+[09:31:26] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[09:31:26] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[09:31:26] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[09:31:27] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[09:31:27] [Server thread/INFO]: [GeyserUpdater] Enabling GeyserUpdater v1.6.4
+[09:31:27] [Server thread/INFO]: [spark] Starting background profiler...
+[09:31:27] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[09:31:27] [Server thread/INFO]: [Geyser-Spigot] 
+[09:31:27] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b821 (git-master-3c51e46)
+[09:31:27] [Server thread/INFO]: [Geyser-Spigot] 
+[09:31:27] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[09:31:33] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[09:31:33] [Server thread/INFO]: [Geyser-Spigot] [mcxboxbroadcast] Starting MCXboxBroadcast Extension build 81 (git-master-567635c)
+[09:31:35] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Starting SessionManager...
+[09:31:35] [Server thread/INFO]: [Geyser-Spigot] Done (7.699s)! Run /geyser help for help!
+[09:31:35] [Server thread/INFO]: Done preparing level "world" (12.340s)
+[09:31:35] [Server thread/INFO]: Running delayed init tasks
+[09:31:35] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[09:31:35] [Server thread/INFO]: Done (34.775s)! For help, type "help"
+[09:31:35] [Craft Scheduler Thread - 2 - GeyserUpdater/INFO]: [GeyserUpdater] You are using the latest version of GeyserUpdater!
+[09:31:35] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[09:31:37] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Successfully authenticated as umaiyoserver (2535456605915541)
+[09:31:38] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creating Xbox LIVE session...
+[09:31:42] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creation of Xbox LIVE session was successful!
+[09:32:33] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username bananaumaiyo
+[09:32:33] [localSession-7-2/INFO]: [Geyser-Spigot] bananaumaiyo (logged in as: bananaumaiyo) has connected to the Java server
+[09:32:34] [Server thread/INFO]: [floodgate] Floodgate player logged in as .bananaumaiyo joined (UUID: 00000000-0000-0000-0009-01fb7b241f85)
+[09:32:35] [Server thread/INFO]: .bananaumaiyo joined the game
+[09:32:35] [Server thread/INFO]: .bananaumaiyo[/127.0.0.1:0] logged in with entity id 25 at ([world]1049.8447, 52.0, 1060.2633)
+[09:33:24] [Server thread/INFO]: .bananaumaiyo was killed
+[09:33:29] [Server thread/INFO]: .bananaumaiyo issued server command: /function mynamespace:change_music/main
+[09:33:29] [Server thread/ERROR]: Display entityNot a string
+[09:33:29] [Server thread/ERROR]: Display entityNot a string
+[09:33:29] [Server thread/ERROR]: Display entityNot a string
+[09:33:30] [Server thread/INFO]: .bananaumaiyo issued server command: /function mynamespace:change_music/main
+[09:33:30] [Server thread/ERROR]: Display entityNot a string
+[09:33:30] [Server thread/ERROR]: Display entityNot a string
+[09:33:30] [Server thread/ERROR]: Display entityNot a string
+[09:33:31] [Server thread/INFO]: .bananaumaiyo issued server command: /function mynamespace:change_music/main
+[09:33:31] [Server thread/ERROR]: Display entityNot a string
+[09:33:31] [Server thread/ERROR]: Display entityNot a string
+[09:33:31] [Server thread/ERROR]: Display entityNot a string
+[09:33:32] [Server thread/INFO]: .bananaumaiyo issued server command: /function mynamespace:change_music/main
+[09:33:32] [Server thread/ERROR]: Display entityNot a string
+[09:33:32] [Server thread/ERROR]: Display entityNot a string
+[09:33:32] [Server thread/ERROR]: Display entityNot a string
+[09:33:34] [Server thread/INFO]: .bananaumaiyo issued server command: /function mynamespace:change_music/main
+[09:33:34] [Server thread/ERROR]: Display entityNot a string
+[09:33:34] [Server thread/ERROR]: Display entityNot a string
+[09:33:34] [Server thread/ERROR]: Display entityNot a string
+[09:33:36] [Server thread/INFO]: .bananaumaiyo issued server command: /function mynamespace:change_music/main
+[09:33:36] [Server thread/ERROR]: Display entityNot a string
+[09:33:36] [Server thread/ERROR]: Display entityNot a string
+[09:33:36] [Server thread/ERROR]: Display entityNot a string
+[09:33:57] [Server thread/INFO]: .bananaumaiyo was killed
+[09:34:01] [Server thread/INFO]: .bananaumaiyo issued server command: /function mynamespace:change_music/main
+[09:34:01] [Server thread/ERROR]: Display entityNot a string
+[09:34:01] [Server thread/ERROR]: Display entityNot a string
+[09:34:01] [Server thread/ERROR]: Display entityNot a string
+[09:34:20] [Server thread/INFO]: .bananaumaiyo died
+[09:34:42] [Server thread/INFO]: .bananaumaiyo issued server command: /gamemode creative
+[09:34:42] [Server thread/INFO]: [.bananaumaiyo: Set own game mode to Creative Mode]
+[09:34:48] [User Authenticator #0/INFO]: UUID of player bananaumaiyo is fae0988f-bacf-4b8e-aa9d-28226778b36b
+[09:34:48] [Server thread/INFO]: bananaumaiyo joined the game
+[09:34:48] [Server thread/INFO]: bananaumaiyo[/127.248.81.7:60843] logged in with entity id 1052 at ([world]1050.5, 50.0, 1047.5)
+[09:34:51] [Server thread/INFO]: bananaumaiyo issued server command: /gamemode creative
+[09:34:51] [Server thread/INFO]: [bananaumaiyo: Set own game mode to Creative Mode]
+[09:34:53] [Server thread/INFO]: bananaumaiyo issued server command: /gamemode survival
+[09:34:53] [Server thread/INFO]: [bananaumaiyo: Set own game mode to Survival Mode]
+[09:34:55] [Server thread/INFO]: bananaumaiyo issued server command: /gamemode creative
+[09:34:55] [Server thread/INFO]: [bananaumaiyo: Set own game mode to Creative Mode]
+[09:39:15] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] bananaumaiyo has disconnected from the Java server because of Bedrock client disconnected
+[09:39:15] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .bananaumaiyo disconnected
+[09:39:15] [Server thread/INFO]: .bananaumaiyo lost connection: Disconnected
+[09:39:15] [Server thread/INFO]: .bananaumaiyo left the game
+[09:39:47] [Server thread/INFO]: bananaumaiyo lost connection: Timed out
+[09:39:47] [Server thread/INFO]: bananaumaiyo left the game

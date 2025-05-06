@@ -10,10 +10,17 @@ data-version: 1
   highest_wave: 10
 fae0988f-bacf-4b8e-aa9d-28226778b36b:
   next_level_exp: 1838
-  games_played: 27
-  kills: 256
+  games_played: 28
+  kills: 309
   loses: 25
   level: 3
   deaths: 39
-  exp: 1630
+  exp: 1786
   highest_wave: 10
+00000000-0000-0000-0009-01f33ba78d3c:
+  next_level_exp: 354
+  games_played: 1
+  kills: 4
+  level: 1
+  deaths: 1
+  exp: 38

@@ -1,0 +1,96 @@
+[05:51:03] [ServerMain/INFO]: Building unoptimized datafixer
+[05:51:04] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:51:06] [ServerMain/INFO]: Loaded 7 recipes
+[05:51:07] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[05:51:07] [Server thread/INFO]: Loading properties
+[05:51:07] [Server thread/INFO]: This server is running Paper version git-Paper-307 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 476ef25)
+[05:51:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:51:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:51:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[05:51:08] [Server thread/INFO]: Default game type: SURVIVAL
+[05:51:08] [Server thread/INFO]: Generating keypair
+[05:51:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:51:08] [Server thread/INFO]: Using epoll channel type
+[05:51:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:51:08] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[05:51:09] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.3.3-SNAPSHOT
+[05:51:09] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[05:51:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[05:51:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[05:51:10] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[05:51:10] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[05:51:10] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:51:11] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[05:51:11] [Server thread/INFO]: [floodgate] Took 565ms to boot Floodgate
+[05:51:11] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.3.2
+[05:51:11] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.7.0-SNAPSHOT
+[05:51:11] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[05:51:11] [Server thread/INFO]: [Geyser-Spigot] Enabled extension MCXboxBroadcast
+[05:51:11] [Server thread/INFO]: [Geyser-Spigot] Loaded 1 extension(s)
+[05:51:11] [Server thread/INFO]: [GeyserUpdater] Loading GeyserUpdater v1.6.4
+[05:51:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:51:11] [Server thread/INFO]: Preparing level "world"
+[05:51:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:51:12] [Server thread/INFO]: Time elapsed: 185 ms
+[05:51:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:51:12] [Server thread/INFO]: Time elapsed: 52 ms
+[05:51:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:51:12] [Server thread/INFO]: Time elapsed: 37 ms
+[05:51:12] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
+[05:51:12] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.1-1.19.2 (760)
+[05:51:12] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:51:13] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[05:51:13] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[05:51:13] [Server thread/INFO]: [GeyserUpdater] Enabling GeyserUpdater v1.6.4
+[05:51:13] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:51:13] [Server thread/INFO]: [Geyser-Spigot] 
+[05:51:13] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b821 (git-master-3c51e46)
+[05:51:13] [Server thread/INFO]: [Geyser-Spigot] 
+[05:51:13] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:51:18] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[05:51:18] [Server thread/INFO]: [Geyser-Spigot] [mcxboxbroadcast] Starting MCXboxBroadcast Extension build 81 (git-master-567635c)
+[05:51:19] [Server thread/INFO]: [Geyser-Spigot] Done (5.761s)! Run /geyser help for help!
+[05:51:19] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Starting SessionManager...
+[05:51:19] [Server thread/INFO]: Running delayed init tasks
+[05:51:19] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[05:51:19] [Server thread/INFO]: Done (12.087s)! For help, type "help"
+[05:51:19] [Server thread/INFO]: Timings Reset
+[05:51:19] [Server thread/INFO]: [Not Secure] [Server] Reloaded!
+[05:51:20] [Craft Scheduler Thread - 1 - GeyserUpdater/INFO]: [GeyserUpdater] You are using the latest version of GeyserUpdater!
+[05:51:20] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[05:51:20] [User Authenticator #0/INFO]: UUID of player bananaumaiyo is fae0988f-bacf-4b8e-aa9d-28226778b36b
+[05:51:20] [Server thread/INFO]: bananaumaiyo joined the game
+[05:51:20] [Server thread/INFO]: bananaumaiyo[/127.248.81.7:41421] logged in with entity id 97 at ([world]1.4104170112374728, 311.0, 1.0634213950607303)
+[05:51:21] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Successfully authenticated as umaiyoserver (2535456605915541)
+[05:51:22] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creating Xbox LIVE session...
+[05:51:27] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creation of Xbox LIVE session was successful!
+[05:52:21] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username soso16akym
+[05:52:21] [localSession-7-2/INFO]: [Geyser-Spigot] soso16akym (logged in as: soso16akym) has connected to the Java server
+[05:52:21] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .soso16akym is 00000000-0000-0000-0009-01f33ba78d3c
+[05:52:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as .soso16akym joined (UUID: 00000000-0000-0000-0009-01f33ba78d3c)
+[05:52:21] [Server thread/INFO]: .soso16akym joined the game
+[05:52:21] [Server thread/INFO]: .soso16akym[/127.0.0.1:0] logged in with entity id 205 at ([world]2.30001, 311.0, 2.69999)
+[05:55:01] [Server thread/INFO]: .soso16akym has made the advancement [The End?]
+[06:07:18] [Server thread/INFO]: bananaumaiyo issued server command: /kill @s
+[06:07:18] [Server thread/INFO]: [bananaumaiyo: Killed bananaumaiyo]
+[06:07:49] [Server thread/INFO]: bananaumaiyo issued server command: /gamemode survival
+[06:07:49] [Server thread/INFO]: [bananaumaiyo: Set own game mode to Survival Mode]
+[06:07:51] [Server thread/INFO]: bananaumaiyo issued server command: /gamemode survival @a
+[06:07:51] [Server thread/INFO]: [bananaumaiyo: Set .soso16akym's game mode to Survival Mode]
+[06:08:10] [Server thread/INFO]: bananaumaiyo issued server command: /team add nopvp nopvp
+[06:08:22] [Server thread/INFO]: bananaumaiyo issued server command: /team add nopvp nopv()
+[06:08:25] [Server thread/INFO]: bananaumaiyo issued server command: /team add nopvp ()
+[06:08:32] [Server thread/INFO]: bananaumaiyo issued server command: /team add nopvp "aa"
+[06:08:32] [Server thread/INFO]: [bananaumaiyo: Created team [aa]]
+[06:08:35] [Server thread/INFO]: bananaumaiyo issued server command: /team add nopvp "aa"
+[06:08:42] [Server thread/INFO]: bananaumaiyo issued server command: /team join nopvp @a
+[06:08:42] [Server thread/INFO]: [bananaumaiyo: Added 2 members to team [aa]]
+[06:08:44] [Server thread/INFO]: bananaumaiyo issued server command: /team join nopvp @a
+[06:08:44] [Server thread/INFO]: [bananaumaiyo: Added 2 members to team [aa]]
+[06:10:53] [Server thread/INFO]: .soso16akym fell from a high place
+[06:12:37] [Server thread/INFO]: bananaumaiyo lost connection: Disconnected
+[06:12:37] [Server thread/INFO]: bananaumaiyo left the game
+[06:13:05] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] soso16akym has disconnected from the Java server because of Bedrock client disconnected
+[06:13:05] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .soso16akym disconnected
+[06:13:05] [Server thread/INFO]: .soso16akym lost connection: Disconnected
+[06:13:05] [Server thread/INFO]: .soso16akym left the game

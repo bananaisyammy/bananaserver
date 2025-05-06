@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "レコードの曲を変更します",
+        "name": "§l§6レコードリソースパック",
+        "uuid": "9107100e-0ca2-ff51-52f5-8e7e1196eab4",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 17, 0 ]
+    },
+    "modules": [
+        {
+            "description": "レコードの曲を変更します",
+            "type": "resources",
+            "uuid": "e29d9c58-7c1d-abfa-b957-bddcd5507e05",
+            "version": [0, 0, 1]
+        }
+    ]
+}

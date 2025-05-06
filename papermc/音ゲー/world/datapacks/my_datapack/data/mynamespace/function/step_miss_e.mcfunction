@@ -1,0 +1,1 @@
+scoreboard players set @s hit_note 1

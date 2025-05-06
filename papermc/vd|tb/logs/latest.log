@@ -1,257 +1,986 @@
-[07:29:26] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[07:29:28] [ServerMain/INFO]: Loaded 7 recipes
-[07:29:29] [Server thread/INFO]: Starting minecraft server version 1.20
-[07:29:29] [Server thread/INFO]: Loading properties
-[07:29:29] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[07:29:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:29:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:29:30] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[04:37:53] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:37:54] [ServerMain/INFO]: Loaded 7 recipes
+[04:37:55] [Server thread/INFO]: Starting minecraft server version 1.20
+[04:37:55] [Server thread/INFO]: Loading properties
+[04:37:55] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[04:37:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:37:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:37:55] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[07:29:30] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[07:29:30] [Server thread/INFO]: Default game type: SURVIVAL
-[07:29:30] [Server thread/INFO]: Generating keypair
-[07:29:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:29:30] [Server thread/INFO]: Using epoll channel type
-[07:29:31] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[07:29:31] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[07:29:32] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[07:29:33] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[07:29:33] [Server thread/INFO]: [floodgate] Took 654ms to boot Floodgate
-[07:29:33] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.3-SNAPSHOT
-[07:29:33] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[07:29:33] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[07:29:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[07:29:34] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[07:29:34] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[07:29:35] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
-[07:29:35] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[07:29:36] [Server thread/INFO]: [Geyser-Spigot] Enabled extension MCXboxBroadcast
-[07:29:36] [Server thread/INFO]: [Geyser-Spigot] Loaded 1 extension(s)
-[07:29:36] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
-[07:29:36] [Server thread/INFO]: [TheBridge] Loading server plugin TheBridge v2.1.4
-[07:29:36] [Server thread/INFO]: [GeyserUpdater] Loading server plugin GeyserUpdater v1.6.4
-[07:29:36] [Server thread/INFO]: [VillageDefense] Loading server plugin VillageDefense v4.7.1
-[07:29:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[07:29:36] [Server thread/INFO]: Preparing level "world"
-[07:29:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:29:37] [Server thread/INFO]: Time elapsed: 505 ms
-[07:29:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[07:29:37] [Server thread/INFO]: Time elapsed: 91 ms
-[07:29:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[07:29:37] [Server thread/INFO]: Time elapsed: 128 ms
-[07:29:37] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[07:29:39] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
-[07:29:39] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[07:29:40] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
-[07:29:41] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
-[07:29:41] [Server thread/INFO]: [TheBridge] Enabling TheBridge v2.1.4
-[07:29:41] [Server thread/INFO]: [TheBridge] Connecting to services, please wait! Server may freeze a bit!
-[07:29:41] [Server thread/INFO]: [TheBridge] Hooked with ServiceRegistry! Initialized services properly!
-[07:29:42] [Server thread/WARN]: [TheBridge] [Debug] Fetched latest localization file from repository.
-[07:29:42] [Server thread/INFO]: [TheBridge] Creating language.yml because it does not exist!
-[07:29:42] [Server thread/WARN]: [TheBridge] [Debug] [System notify] The arenas  file is outdated! Updating...
-[07:29:42] [Server thread/WARN]: [TheBridge] [Debug] [System notify] arenas updated, no comments were removed :)
-[07:29:42] [Server thread/WARN]: [TheBridge] [Debug] [System notify] You're using latest arenas file now! Nice!
-[07:29:42] [Server thread/INFO]: [TheBridge] File powerups.yml does not exist!
-[07:29:42] [Server thread/WARN]: [TheBridge] [Debug] §aLoaded locale Default (Default ID: default) by Internal Plugin
-[07:29:43] [Server thread/INFO]: [TheBridge] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-
-[07:29:43] [Server thread/INFO]: [TheBridge] 
-[07:29:43] [Server thread/INFO]: [TheBridge] Versions: 
-[07:29:43] [Server thread/INFO]: [TheBridge] Plugin: 2.1.4 | Server: git-Paper-17 (MC: 1.20) | Detected: v1_20 | Software: Paper | Java: 21.0.6
-[07:29:43] [Server thread/INFO]: [TheBridge] 
-[07:29:43] [Server thread/INFO]: [TheBridge] This plugin was created by Plugily Projects as part of an open source project ( https://donate.plugily.xyz )
-[07:29:43] [Server thread/INFO]: [TheBridge] 
-[07:29:43] [Server thread/INFO]: [TheBridge][SUPPORT] If you have any problems, you can always contact us on our Discord server! ( https://discord.plugily.xyz )
-[07:29:43] [Server thread/INFO]: [TheBridge][SUPPORT] You can also check out our wiki at https://wiki.plugily.xyz
-[07:29:43] [Server thread/INFO]: [TheBridge] 
-[07:29:43] [Server thread/INFO]: [TheBridge]                               The plugin got fully enabled! Enjoy the plugin ;)
-[07:29:43] [Server thread/INFO]: [TheBridge] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-
-[07:29:44] [Server thread/INFO]: Preparing start region for dimension minecraft:tb-fortress
-[07:29:45] [Server thread/INFO]: Time elapsed: 944 ms
-[07:29:45] [Server thread/INFO]: Arena Fortress instance successfully started!
-[07:29:46] [Server thread/WARN]: [TheBridge] [Debug] Block at location TB-Fortress,61,171,-37,0.0,0.0 for arena TB-Fortress added as sign!
-[07:29:47] [Server thread/WARN]: [TheBridge] [Debug] Block at location TB-Fortress,61,171,-37,0.0,0.0 for arena TB-Fortress added as sign!
-[07:29:47] [Server thread/INFO]: [GeyserUpdater] Enabling GeyserUpdater v1.6.4
-[07:29:47] [Server thread/INFO]: [VillageDefense] Enabling VillageDefense v4.7.1
-[07:29:47] [Server thread/INFO]: [VillageDefense] Connecting to services, please wait! Server may freeze a bit!
-[07:29:48] [Server thread/INFO]: [VillageDefense] Hooked with ServiceRegistry! Initialized services properly!
-[07:29:48] [Server thread/WARN]: [VillageDefense] [Debug] Fetched latest localization file from repository.
-[07:29:48] [Server thread/WARN]: [VillageDefense] [Debug] §aLoaded locale Default (Default ID: default) by Internal Plugin
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
-[07:29:49] [Server thread/INFO]: [VillageDefense] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-
-[07:29:49] [Server thread/INFO]: [VillageDefense] 
-[07:29:49] [Server thread/INFO]: [VillageDefense] Versions: 
-[07:29:49] [Server thread/INFO]: [VillageDefense] Plugin: 4.7.1 | Server: git-Paper-17 (MC: 1.20) | Detected: v1_20_R1 | Software: Paper | Java: 21.0.6
-[07:29:49] [Server thread/INFO]: [VillageDefense] 
-[07:29:49] [Server thread/INFO]: [VillageDefense] This plugin was created by Plugily Projects as part of an open source project ( https://donate.plugily.xyz )
-[07:29:49] [Server thread/INFO]: [VillageDefense] 
-[07:29:49] [Server thread/INFO]: [VillageDefense][SUPPORT] If you have any problems, you can always contact us on our Discord server! ( https://discord.plugily.xyz )
-[07:29:49] [Server thread/INFO]: [VillageDefense][SUPPORT] You can also check out our wiki at https://wiki.plugily.xyz
-[07:29:49] [Server thread/INFO]: [VillageDefense] 
-[07:29:49] [Server thread/INFO]: [VillageDefense]                               The plugin got fully enabled! Enjoy the plugin ;)
-[07:29:49] [Server thread/INFO]: [VillageDefense] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section end-wave found. Registering as number reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section zombie-kill not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section end-wave found. Registering as number reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section zombie-kill not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section end-wave found. Registering as number reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section villager-death not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section zombie-kill not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section player-death not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section villager-death not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section end-wave found. Registering as number reward
-[07:29:49] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
-[07:29:49] [Server thread/INFO]: Preparing start region for dimension minecraft:vd-quarry
-[07:29:50] [Server thread/INFO]: Time elapsed: 988 ms
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
-[07:29:51] [Server thread/INFO]: Arena Quarry instance successfully started!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] Block at location VD-Quarry,-28,95,44,0.0,0.0 for arena VD-Quarry added as sign!
-[07:29:51] [Server thread/WARN]: [VillageDefense] [Debug] Block at location VD-Quarry,-28,95,44,0.0,0.0 for arena VD-Quarry added as sign!
-[07:29:52] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[07:29:52] [Server thread/INFO]: [Geyser-Spigot] 
-[07:29:52] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b821 (git-master-3c51e46)
-[07:29:52] [Server thread/INFO]: [Geyser-Spigot] 
-[07:29:52] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[07:30:02] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[07:30:02] [Server thread/INFO]: [Geyser-Spigot] [mcxboxbroadcast] Starting MCXboxBroadcast Extension build 81 (git-master-567635c)
-[07:30:05] [Server thread/INFO]: [Geyser-Spigot] Done (13.096s)! Run /geyser help for help!
-[07:30:05] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Starting SessionManager...
-[07:30:05] [Server thread/INFO]: Running delayed init tasks
-[07:30:05] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[07:30:05] [Server thread/INFO]: Done (35.632s)! For help, type "help"
-[07:30:05] [Server thread/INFO]: Timings Reset
-[07:30:05] [Craft Scheduler Thread - 6 - GeyserUpdater/INFO]: [GeyserUpdater] You are using the latest version of GeyserUpdater!
-[07:30:05] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[07:30:07] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Successfully authenticated as umaiyoserver (2535456605915541)
-[07:30:08] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creating Xbox LIVE session...
-[07:30:13] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creation of Xbox LIVE session was successful!
-[07:34:12] [User Authenticator #0/INFO]: UUID of player bananaumaiyo is fae0988f-bacf-4b8e-aa9d-28226778b36b
-[07:34:15] [Server thread/INFO]: bananaumaiyo joined the game
-[07:34:15] [Server thread/INFO]: bananaumaiyo[/127.248.81.7:39649] logged in with entity id 378 at ([VD-Quarry]-26.255389807372286, 94.0, 43.629985376206506)
-[07:34:22] [Server thread/INFO]: bananaumaiyo issued server command: /tb arenas
-[07:34:23] [Server thread/INFO]: [TheBridge] Saved inventory of bananaumaiyo
-[07:34:44] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username bananaumaiyo
-[07:34:44] [localSession-7-2/INFO]: [Geyser-Spigot] bananaumaiyo (logged in as: bananaumaiyo) has connected to the Java server
-[07:34:45] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .bananaumaiyo is 00000000-0000-0000-0009-01fb7b241f85
-[07:34:45] [Server thread/INFO]: [floodgate] Floodgate player logged in as .bananaumaiyo joined (UUID: 00000000-0000-0000-0009-01fb7b241f85)
-[07:34:45] [Server thread/INFO]: .bananaumaiyo joined the game
-[07:34:45] [Server thread/INFO]: .bananaumaiyo[/127.0.0.1:0] logged in with entity id 381 at ([VD-Quarry]-25.67, 94.0, 44.45)
-[07:34:55] [Server thread/INFO]: .bananaumaiyo issued server command: /tb arenas
-[07:34:57] [Server thread/INFO]: [TheBridge] Saved inventory of .bananaumaiyo
-[07:37:18] [Server thread/INFO]: .bananaumaiyo has made the advancement [Take Aim]
-[07:37:28] [Server thread/WARN]: .bananaumaiyo moved too quickly! 1.6443500000000029,5.3234899999999925,-99.257256
-[07:37:28] [Server thread/WARN]: .bananaumaiyo moved too quickly! 1.6443500000000029,5.3234899999999925,-99.257256
-[07:37:28] [Server thread/WARN]: .bananaumaiyo moved too quickly! 1.6443500000000029,5.3234899999999925,-99.257256
-[07:37:28] [Server thread/WARN]: .bananaumaiyo moved too quickly! 1.6443500000000029,5.3234899999999925,-99.257256
-[07:37:28] [Server thread/WARN]: .bananaumaiyo moved too quickly! 1.6443500000000029,5.3234899999999925,-99.257256
-[07:37:28] [Server thread/WARN]: .bananaumaiyo moved too quickly! 1.6443500000000029,5.3234899999999925,-99.257256
-[07:37:50] [Server thread/WARN]: .bananaumaiyo moved too quickly! -1.4007599999999911,5.3234899999999925,-100.279036
-[07:37:50] [Server thread/WARN]: .bananaumaiyo moved too quickly! -1.4007599999999911,5.3234899999999925,-100.279036
-[07:37:50] [Server thread/WARN]: .bananaumaiyo moved too quickly! -1.4007599999999911,5.3234899999999925,-100.279036
-[07:37:50] [Server thread/WARN]: .bananaumaiyo moved too quickly! -1.4007599999999911,5.3234899999999925,-100.279036
-[07:37:50] [Server thread/WARN]: .bananaumaiyo moved too quickly! -1.4007599999999911,5.3234899999999925,-100.279036
-[07:37:50] [Server thread/WARN]: .bananaumaiyo moved too quickly! -1.4007599999999911,5.3234899999999925,-100.279036
-[07:37:50] [Server thread/WARN]: .bananaumaiyo moved too quickly! -1.4007599999999911,5.3234899999999925,-100.279036
-[07:37:50] [Server thread/WARN]: .bananaumaiyo moved too quickly! -1.4007599999999911,5.3234899999999925,-100.279036
-[07:38:06] [Server thread/INFO]: [TheBridge] Loaded inventory of bananaumaiyo
-[07:38:06] [Server thread/INFO]: [TheBridge] Loaded inventory of .bananaumaiyo
-[07:38:06] [Server thread/WARN]: .bananaumaiyo moved too quickly! -114.64211999999999,-4.0,46.75001
-[07:38:06] [Server thread/WARN]: .bananaumaiyo moved too quickly! -114.64211999999999,-4.0,46.75001
-[07:38:06] [Server thread/WARN]: .bananaumaiyo moved too quickly! -114.64211999999999,-4.0,46.75001
-[07:38:06] [Server thread/WARN]: .bananaumaiyo moved too quickly! -114.64211999999999,-4.0,46.75001
-[07:38:06] [Server thread/WARN]: .bananaumaiyo moved too quickly! -114.64211999999999,-4.0,46.75001
-[07:38:06] [Server thread/WARN]: .bananaumaiyo moved too quickly! -114.64211999999999,-4.0,46.75001
-[07:38:30] [Server thread/INFO]: bananaumaiyo issued server command: /gamemode creative
-[07:38:30] [Server thread/INFO]: [bananaumaiyo: Set own game mode to Creative Mode]
-[07:38:37] [Server thread/INFO]: Stopping the server
-[07:38:37] [Server thread/INFO]: Stopping server
-[07:38:37] [Server thread/INFO]: [VillageDefense] Disabling VillageDefense v4.7.1
-[07:38:37] [Server thread/INFO]: [GeyserUpdater] Disabling GeyserUpdater v1.6.4
-[07:38:37] [Server thread/INFO]: [TheBridge] Disabling TheBridge v2.1.4
-[07:38:37] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
-[07:38:37] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
-[07:38:37] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[07:38:37] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
-[07:38:37] [Server thread/INFO]: [Geyser-Spigot] bananaumaiyo has disconnected from the Java server because of Geyser Proxy をシャットダウンしています。
-[07:38:37] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .bananaumaiyo disconnected
-[07:38:37] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
-[07:38:37] [Server thread/INFO]: [Geyser-Spigot] Disabled extension MCXboxBroadcast
-[07:38:37] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[07:38:37] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.3-SNAPSHOT
-[07:38:37] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[07:38:37] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[07:38:37] [Server thread/INFO]: Saving players
-[07:38:37] [WebSocketConnectReadThread-121/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] RTC Websocket disconnected:  (1000)
-[07:38:37] [Server thread/INFO]: bananaumaiyo lost connection: Server closed
-[07:38:37] [Server thread/INFO]: bananaumaiyo left the game
-[07:38:37] [Server thread/INFO]: .bananaumaiyo lost connection: Server closed
-[07:38:37] [Server thread/INFO]: .bananaumaiyo left the game
-[07:38:37] [Server thread/INFO]: Saving worlds
-[07:38:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:38:37] [WebSocketConnectReadThread-83/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 90 entity chunks, 0 poi chunks in world 'world' in 0.06s
-[07:38:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:38:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 40 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
-[07:38:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:38:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[07:38:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:38:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[TB-Fortress]'/minecraft:tb-fortress
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'TB-Fortress'
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'TB-Fortress'
-[07:38:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'TB-Fortress'
-[07:38:38] [Server thread/INFO]: [ChunkHolderManager] Saved 549 block chunks, 540 entity chunks, 0 poi chunks in world 'TB-Fortress' in 0.50s
-[07:38:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (TB-Fortress): All chunks are saved
-[07:38:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[VD-Quarry]'/minecraft:vd-quarry
-[07:38:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'VD-Quarry'
-[07:38:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'VD-Quarry'
-[07:38:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'VD-Quarry'
-[07:38:38] [Server thread/INFO]: [ChunkHolderManager] Saved 199 block chunks, 193 entity chunks, 0 poi chunks in world 'VD-Quarry' in 0.34s
-[07:38:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (VD-Quarry): All chunks are saved
-[07:38:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:38:38] [Server thread/INFO]: Flushing Chunk IO
-[07:38:38] [Server thread/INFO]: Closing Thread Pool
-[07:38:38] [Server thread/INFO]: Closing Server
+[04:37:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[04:37:55] [Server thread/INFO]: Default game type: SURVIVAL
+[04:37:55] [Server thread/INFO]: Generating keypair
+[04:37:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:37:56] [Server thread/INFO]: Using epoll channel type
+[04:37:56] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:37:56] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:37:57] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[04:37:57] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[04:37:57] [Server thread/INFO]: [floodgate] Took 581ms to boot Floodgate
+[04:37:57] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.3-SNAPSHOT
+[04:37:57] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[04:37:58] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[04:37:58] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[04:37:58] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[04:37:58] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[04:37:58] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.0-SNAPSHOT
+[04:37:59] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[04:37:59] [Server thread/INFO]: [Geyser-Spigot] Enabled extension MCXboxBroadcast
+[04:37:59] [Server thread/INFO]: [Geyser-Spigot] Loaded 1 extension(s)
+[04:37:59] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[04:37:59] [Server thread/INFO]: [TheBridge] Loading server plugin TheBridge v2.1.4
+[04:37:59] [Server thread/INFO]: [GeyserUpdater] Loading server plugin GeyserUpdater v1.6.4
+[04:37:59] [Server thread/INFO]: [VillageDefense] Loading server plugin VillageDefense v4.7.1
+[04:37:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:37:59] [Server thread/INFO]: Preparing level "world"
+[04:37:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:37:59] [Server thread/INFO]: Time elapsed: 195 ms
+[04:37:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:37:59] [Server thread/INFO]: Time elapsed: 73 ms
+[04:37:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:38:00] [Server thread/INFO]: Time elapsed: 52 ms
+[04:38:00] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[04:38:01] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
+[04:38:01] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[04:38:01] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.0-SNAPSHOT
+[04:38:01] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[04:38:01] [Server thread/INFO]: [TheBridge] Enabling TheBridge v2.1.4
+[04:38:01] [Server thread/INFO]: [TheBridge] Connecting to services, please wait! Server may freeze a bit!
+[04:38:02] [Server thread/INFO]: [TheBridge] Hooked with ServiceRegistry! Initialized services properly!
+[04:38:02] [Server thread/WARN]: [TheBridge] [Debug] Fetched latest localization file from repository.
+[04:38:02] [Server thread/WARN]: [TheBridge] [Debug] §aLoaded locale Default (Default ID: default) by Internal Plugin
+[04:38:03] [Server thread/INFO]: [TheBridge] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-
+[04:38:03] [Server thread/INFO]: [TheBridge] 
+[04:38:03] [Server thread/INFO]: [TheBridge] Versions: 
+[04:38:03] [Server thread/INFO]: [TheBridge] Plugin: 2.1.4 | Server: git-Paper-17 (MC: 1.20) | Detected: v1_20 | Software: Paper | Java: 21.0.6
+[04:38:03] [Server thread/INFO]: [TheBridge] 
+[04:38:03] [Server thread/INFO]: [TheBridge] This plugin was created by Plugily Projects as part of an open source project ( https://donate.plugily.xyz )
+[04:38:03] [Server thread/INFO]: [TheBridge] 
+[04:38:03] [Server thread/INFO]: [TheBridge][SUPPORT] If you have any problems, you can always contact us on our Discord server! ( https://discord.plugily.xyz )
+[04:38:03] [Server thread/INFO]: [TheBridge][SUPPORT] You can also check out our wiki at https://wiki.plugily.xyz
+[04:38:03] [Server thread/INFO]: [TheBridge] 
+[04:38:03] [Server thread/INFO]: [TheBridge]                               The plugin got fully enabled! Enjoy the plugin ;)
+[04:38:03] [Server thread/INFO]: [TheBridge] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-
+[04:38:03] [Server thread/INFO]: Preparing start region for dimension minecraft:tb-fortress
+[04:38:04] [Server thread/INFO]: Time elapsed: 938 ms
+[04:38:04] [Server thread/INFO]: Arena Fortress instance successfully started!
+[04:38:05] [Server thread/WARN]: [TheBridge] [Debug] Block at location TB-Fortress,61,171,-37,0.0,0.0 for arena TB-Fortress added as sign!
+[04:38:05] [Server thread/WARN]: [TheBridge] [Debug] Block at location TB-Fortress,61,171,-37,0.0,0.0 for arena TB-Fortress added as sign!
+[04:38:05] [Server thread/INFO]: [GeyserUpdater] Enabling GeyserUpdater v1.6.4
+[04:38:05] [Server thread/INFO]: [VillageDefense] Enabling VillageDefense v4.7.1
+[04:38:05] [Server thread/INFO]: [VillageDefense] Connecting to services, please wait! Server may freeze a bit!
+[04:38:05] [Server thread/INFO]: [VillageDefense] Hooked with ServiceRegistry! Initialized services properly!
+[04:38:05] [Server thread/WARN]: [VillageDefense] [Debug] Fetched latest localization file from repository.
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] §aLoaded locale Default (Default ID: default) by Internal Plugin
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
+[04:38:06] [Server thread/INFO]: [VillageDefense] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-
+[04:38:06] [Server thread/INFO]: [VillageDefense] 
+[04:38:06] [Server thread/INFO]: [VillageDefense] Versions: 
+[04:38:06] [Server thread/INFO]: [VillageDefense] Plugin: 4.7.1 | Server: git-Paper-17 (MC: 1.20) | Detected: v1_20_R1 | Software: Paper | Java: 21.0.6
+[04:38:06] [Server thread/INFO]: [VillageDefense] 
+[04:38:06] [Server thread/INFO]: [VillageDefense] This plugin was created by Plugily Projects as part of an open source project ( https://donate.plugily.xyz )
+[04:38:06] [Server thread/INFO]: [VillageDefense] 
+[04:38:06] [Server thread/INFO]: [VillageDefense][SUPPORT] If you have any problems, you can always contact us on our Discord server! ( https://discord.plugily.xyz )
+[04:38:06] [Server thread/INFO]: [VillageDefense][SUPPORT] You can also check out our wiki at https://wiki.plugily.xyz
+[04:38:06] [Server thread/INFO]: [VillageDefense] 
+[04:38:06] [Server thread/INFO]: [VillageDefense]                               The plugin got fully enabled! Enjoy the plugin ;)
+[04:38:06] [Server thread/INFO]: [VillageDefense] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section end-wave found. Registering as number reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section zombie-kill not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section end-wave found. Registering as number reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section zombie-kill not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section end-wave found. Registering as number reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section villager-death not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section zombie-kill not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section player-death not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section villager-death not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-end not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section game-start not found. Registering as normal reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section end-wave found. Registering as number reward
+[04:38:06] [Server thread/WARN]: [VillageDefense] [Debug] Rewards section start-wave not found. Registering as normal reward
+[04:38:06] [Server thread/INFO]: Preparing start region for dimension minecraft:vd-quarry
+[04:38:07] [Server thread/INFO]: Time elapsed: 330 ms
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] No price set for shop item in arena VD-Quarry skipping item!
+[04:38:07] [Server thread/INFO]: Arena Quarry instance successfully started!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] Block at location VD-Quarry,-28,95,44,0.0,0.0 for arena VD-Quarry added as sign!
+[04:38:07] [Server thread/WARN]: [VillageDefense] [Debug] Block at location VD-Quarry,-28,95,44,0.0,0.0 for arena VD-Quarry added as sign!
+[04:38:07] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:38:07] [Server thread/INFO]: [Geyser-Spigot] 
+[04:38:07] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.0-b821 (git-master-3c51e46)
+[04:38:07] [Server thread/INFO]: [Geyser-Spigot] 
+[04:38:07] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:38:11] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[04:38:12] [Server thread/INFO]: [Geyser-Spigot] [mcxboxbroadcast] Starting MCXboxBroadcast Extension build 81 (git-master-567635c)
+[04:38:13] [Server thread/INFO]: [Geyser-Spigot] Done (5.589s)! Run /geyser help for help!
+[04:38:13] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Starting SessionManager...
+[04:38:13] [Server thread/INFO]: Running delayed init tasks
+[04:38:13] [Server thread/INFO]: Done (17.690s)! For help, type "help"
+[04:38:13] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[04:38:13] [Server thread/INFO]: Timings Reset
+[04:38:13] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] Getting MSA Token...
+[04:38:13] [Craft Scheduler Thread - 1 - GeyserUpdater/INFO]: [GeyserUpdater] You are using the latest version of GeyserUpdater!
+[04:38:13] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[04:38:14] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] Got MSA Token, expires: 2025-05-07T04:38:14.028Z[Etc/UTC]
+[04:38:14] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] Authenticating with Xbox Live using SISU...
+[04:38:15] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Auth] Got XBL User+Title+XSTS Token, expires: 2025-05-06T20:38:15.082Z[Etc/UTC]
+[04:38:16] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Successfully authenticated as umaiyoserver (2535456605915541)
+[04:38:17] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creating Xbox LIVE session...
+[04:38:21] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Creation of Xbox LIVE session was successful!
+[04:38:28] [User Authenticator #0/INFO]: UUID of player bananaumaiyo is fae0988f-bacf-4b8e-aa9d-28226778b36b
+[04:38:31] [Server thread/INFO]: bananaumaiyo joined the game
+[04:38:31] [Server thread/INFO]: bananaumaiyo[/127.248.81.7:40251] logged in with entity id 295 at ([TB-Fortress]57.04140963631117, 171.0, -39.284530302215316)
+[04:39:23] [MCXboxBroadcast Thread-1/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] Added soso16akym (2535418979913020) as a friend
+[04:39:39] [Server thread/INFO]: [TheBridge] Saved inventory of bananaumaiyo
+[04:40:32] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username soso16akym
+[04:40:32] [localSession-7-2/INFO]: [Geyser-Spigot] soso16akym (logged in as: soso16akym) has connected to the Java server
+[04:40:32] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .soso16akym is 00000000-0000-0000-0009-01f33ba78d3c
+[04:40:32] [Server thread/INFO]: [floodgate] Floodgate player logged in as .soso16akym joined (UUID: 00000000-0000-0000-0009-01f33ba78d3c)
+[04:40:32] [Server thread/INFO]: .soso16akym joined the game
+[04:40:32] [Server thread/INFO]: .soso16akym[/127.0.0.1:0] logged in with entity id 296 at ([world]-2.5, 95.0, -9.5)
+[04:41:16] [Server thread/INFO]: Teleported .soso16akym to bananaumaiyo
+[04:41:49] [Server thread/INFO]: bananaumaiyo issued server command: /tp @p
+[04:41:49] [Server thread/INFO]: [bananaumaiyo: Teleported bananaumaiyo to bananaumaiyo]
+[04:41:54] [Server thread/INFO]: bananaumaiyo issued server command: /tp @a ~ ~ ~
+[04:41:54] [Server thread/INFO]: [bananaumaiyo: Teleported 2 entities to 59.381965, 171.000000, -37.798422]
+[04:42:00] [Server thread/INFO]: [TheBridge] Loaded inventory of bananaumaiyo
+[04:42:39] [Server thread/INFO]: [TheBridge] Saved inventory of bananaumaiyo
+[04:42:48] [Server thread/INFO]: [TheBridge] Loaded inventory of bananaumaiyo
+[04:42:53] [Server thread/INFO]: bananaumaiyo issued server command: /give @s minecraft:command_block
+[04:42:54] [Server thread/INFO]: [bananaumaiyo: Gave 1 [Command Block] to bananaumaiyo]
+[04:43:25] [Async Chat Thread - #2/INFO]: <bananaumaiyo> ./vd arenas
+[04:44:12] [Async Chat Thread - #1/INFO]: <bananaumaiyo> ./vd arenas
+[04:44:20] [Async Chat Thread - #2/INFO]: <bananaumaiyo> ./vd join VD-Quarry
+[04:44:21] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username bananaumaiyo
+[04:44:21] [localSession-7-3/INFO]: [Geyser-Spigot] bananaumaiyo (logged in as: bananaumaiyo) has connected to the Java server
+[04:44:21] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .bananaumaiyo is 00000000-0000-0000-0009-01fb7b241f85
+[04:44:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as .bananaumaiyo joined (UUID: 00000000-0000-0000-0009-01fb7b241f85)
+[04:44:21] [Server thread/INFO]: .bananaumaiyo joined the game
+[04:44:21] [Server thread/INFO]: .bananaumaiyo[/127.0.0.1:0] logged in with entity id 421 at ([TB-Fortress]61.358456, 171.0, -35.27276)
+[04:45:12] [Async Chat Thread - #1/INFO]: <bananaumaiyo> ./vd join VD-Quarry
+[04:45:51] [Server thread/INFO]: [TheBridge] Saved inventory of bananaumaiyo
+[04:46:01] [Server thread/INFO]: bananaumaiyo issued server command: /vd join VD-Quarry .soso16akym
+[04:46:01] [Server thread/INFO]: [VillageDefense] Saved inventory of bananaumaiyo
+[04:46:07] [Server thread/INFO]: [TheBridge] Loaded inventory of bananaumaiyo
+[04:46:22] [Server thread/INFO]: bananaumaiyo issued server command: /tb join TB-Fortress .soso16akym
+[04:46:22] [Server thread/INFO]: [TheBridge] Saved inventory of bananaumaiyo
+[04:46:26] [Server thread/INFO]: [TheBridge] Loaded inventory of bananaumaiyo
+[04:46:34] [Server thread/INFO]: bananaumaiyo issued server command: /vd leave
+[04:46:35] [Server thread/INFO]: [VillageDefense] Loaded inventory of bananaumaiyo
+[04:46:41] [Server thread/INFO]: bananaumaiyo issued server command: /tp .soso16akym
+[04:46:41] [Server thread/INFO]: [bananaumaiyo: Teleported bananaumaiyo to .soso16akym]
+[04:47:00] [Server thread/INFO]: bananaumaiyo fell out of the world
+[04:47:07] [Server thread/INFO]: bananaumaiyo issued server command: /tp .soso16akym
+[04:47:07] [Server thread/INFO]: [bananaumaiyo: Teleported bananaumaiyo to .soso16akym]
+[04:47:33] [Server thread/INFO]: bananaumaiyo issued server command: /gamemode creative
+[04:47:33] [Server thread/INFO]: [bananaumaiyo: Set own game mode to Creative Mode]
+[04:48:26] [Server thread/INFO]: .soso16akym issued server command: /vd join VD-Quarry
+[04:48:43] [Server thread/INFO]: Made .soso16akym a server operator
+[04:49:14] [Async Chat Thread - #3/INFO]: <bananaumaiyo> ./vd arenas
+[04:50:06] [Server thread/INFO]: .soso16akym issued server command: /vd arenas
+[04:50:18] [Server thread/INFO]: [VillageDefense] Saved inventory of .soso16akym
+[04:50:21] [Async Chat Thread - #5/INFO]: <bananaumaiyo> ./vd arenas
+[04:50:24] [Server thread/INFO]: bananaumaiyo issued server command: /vd arenas
+[04:50:25] [Server thread/INFO]: [VillageDefense] Saved inventory of bananaumaiyo
+[04:50:36] [Server thread/INFO]: bananaumaiyo issued server command: /weather clear
+[04:50:36] [Server thread/INFO]: [bananaumaiyo: Set the weather to clear]
+[04:51:19] [Server thread/INFO]: [Not Secure] [Server] Ooh and there are playing 2 players
+[04:51:19] [Server thread/INFO]: bananaumaiyo has made the advancement [Into Fire]
+[04:51:19] [Server thread/INFO]: [Not Secure] [Server] §aQuarry has started
+[04:51:19] [Server thread/INFO]: [Not Secure] [Server] Ooh and there are playing 2 players
+[04:51:19] [Server thread/INFO]: [Not Secure] [Server] §aQuarry has started
+[04:51:44] [Server thread/INFO]: [Not Secure] [Server] Wave started
+[04:51:44] [Server thread/INFO]: [Not Secure] [Server] Wave started
+[04:51:57] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:51:57] [Server thread/INFO]: bananaumaiyo has made the advancement [Monster Hunter]
+[04:51:57] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/468, uuid='579ed560-d70a-4c67-a276-07c4cdfd595d', l='ServerLevel[VD-Quarry]', x=16.49, y=80.00, z=-22.57, cpos=[1, -2], tl=254, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:51:58] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:51:58] [Server thread/INFO]: [Not Secure] [Server] Nice try %PLAYER%...
+[04:51:58] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:51:58] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, good job!
+[04:51:58] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, nice!
+[04:51:58] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:51:58] [Server thread/INFO]: [Not Secure] [Server] Nice try %PLAYER%...
+[04:51:58] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:51:58] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, good job!
+[04:51:58] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, nice!
+[04:52:23] [Server thread/INFO]: [Not Secure] [Server] Wave started
+[04:52:23] [Server thread/INFO]: [Not Secure] [Server] Wave started
+[04:52:40] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:52:40] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:52:40] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/474, uuid='97765abe-23a7-4520-a19e-37b7a15fcd4e', l='ServerLevel[VD-Quarry]', x=-9.62, y=80.00, z=-15.63, cpos=[-1, -1], tl=329, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:52:48] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:52:48] [Server thread/INFO]: .soso16akym has made the advancement [Monster Hunter]
+[04:52:48] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/473, uuid='a8fc56fd-540a-47e6-b293-4dd1b3b0b13c', l='ServerLevel[VD-Quarry]', x=14.30, y=80.00, z=-33.50, cpos=[0, -3], tl=485, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by .soso16akym
+[04:52:49] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:52:49] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:52:49] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, good job!
+[04:52:49] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, nice!
+[04:52:49] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:52:49] [Server thread/INFO]: [Not Secure] [Server] Nice try %PLAYER%...
+[04:52:49] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:52:49] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, good job!
+[04:52:49] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, nice!
+[04:52:49] [Server thread/INFO]: [Not Secure] [Server] Nice try %PLAYER%...
+[04:53:14] [Server thread/INFO]: [Not Secure] [Server] Wave started
+[04:53:14] [Server thread/INFO]: [Not Secure] [Server] Wave started
+[04:53:16] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/484, uuid='bed24d44-a19b-477a-b101-79ef171e7186', l='ServerLevel[VD-Quarry]', x=-9.23, y=80.00, z=-32.70, cpos=[-1, -3], tl=21, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| suffocated in a wall
+[04:53:19] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:53:19] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/485, uuid='6a604646-47cd-467e-a46b-655709ca5595', l='ServerLevel[VD-Quarry]', x=5.50, y=80.00, z=-9.94, cpos=[0, -1], tl=87, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:53:26] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:53:26] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/483, uuid='fc57f118-f228-4401-b21e-10d38bc3a5d6', l='ServerLevel[VD-Quarry]', x=18.48, y=80.00, z=1.53, cpos=[1, 0], tl=223, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by .soso16akym
+[04:53:27] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:53:27] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/486, uuid='561d52d8-573f-487c-8cd7-dd69af690a0d', l='ServerLevel[VD-Quarry]', x=-8.32, y=80.00, z=-20.81, cpos=[-1, -2], tl=255, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:53:41] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:53:41] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/487, uuid='64a9f257-331a-43fd-9633-c23293c2df9c', l='ServerLevel[VD-Quarry]', x=17.64, y=80.00, z=-7.61, cpos=[1, -1], tl=528, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:53:42] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:53:42] [Server thread/INFO]: [Not Secure] [Server] Nice try %PLAYER%...
+[04:53:42] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:53:42] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, nice!
+[04:53:42] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:53:42] [Server thread/INFO]: [Not Secure] [Server] Nice try %PLAYER%...
+[04:53:42] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:53:42] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, good job!
+[04:53:42] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, good job!
+[04:53:42] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, nice!
+[04:54:07] [Server thread/INFO]: [Not Secure] [Server] Wave started
+[04:54:07] [Server thread/INFO]: [Not Secure] [Server] Wave started
+[04:54:09] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/508, uuid='c5e8ed23-014a-4fe5-ac73-e0b989aeed41', l='ServerLevel[VD-Quarry]', x=-9.23, y=80.00, z=-32.70, cpos=[-1, -3], tl=21, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| suffocated in a wall
+[04:54:09] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/509, uuid='60c54933-36b3-406d-a7b3-47d11b565de5', l='ServerLevel[VD-Quarry]', x=-9.23, y=80.00, z=-32.70, cpos=[-1, -3], tl=21, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| suffocated in a wall
+[04:54:09] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/511, uuid='d986f6e2-26eb-4f6b-9779-8b873639dd43', l='ServerLevel[VD-Quarry]', x=-9.23, y=80.00, z=-32.70, cpos=[-1, -3], tl=21, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| suffocated in a wall
+[04:54:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:54:14] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/510, uuid='2261c3fe-8a9d-4b5b-a176-d58767ee0958', l='ServerLevel[VD-Quarry]', x=18.36, y=80.00, z=2.15, cpos=[1, 0], tl=129, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:54:26] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:54:26] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:54:26] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/504, uuid='c569533a-f28d-454c-be0b-5849bebbb642', l='ServerLevel[VD-Quarry]', x=16.46, y=80.00, z=-22.16, cpos=[1, -2], tl=365, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:54:45] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:54:45] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/505, uuid='0194c274-12bb-44b9-8516-878e9699b127', l='ServerLevel[VD-Quarry]', x=-3.54, y=80.00, z=19.74, cpos=[-1, 1], tl=748, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:54:53] [Server thread/INFO]: Villager EntityVillager['Wulffric'/465, uuid='5a5881ad-9f24-4711-abbb-8316a8fe92b8', l='ServerLevel[VD-Quarry]', x=10.99, y=80.00, z=9.39, cpos=[0, 0], tl=4287, v=true] died, message: 'Wulffric was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[04:54:53] [Server thread/INFO]: Villager EntityVillager['Wulffric'/465, uuid='5a5881ad-9f24-4711-abbb-8316a8fe92b8', l='ServerLevel[VD-Quarry]', x=10.99, y=80.00, z=9.39, cpos=[0, 0], tl=4287, v=false, removed=DISCARDED] died, message: 'Wulffric died because of ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[04:54:53] [Server thread/INFO]: Named entity EntityVillager['Wulffric'/465, uuid='5a5881ad-9f24-4711-abbb-8316a8fe92b8', l='ServerLevel[VD-Quarry]', x=10.99, y=80.00, z=9.39, cpos=[0, 0], tl=4287, v=false, removed=DISCARDED] died: Wulffric was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||
+[04:54:53] [Server thread/INFO]: [Not Secure] [Server] Protect the villager better next time!
+[04:54:53] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:54:53] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/506, uuid='ceb636ee-cbd8-4548-b981-8b1b34aac34d', l='ServerLevel[VD-Quarry]', x=19.93, y=80.00, z=-0.97, cpos=[1, -1], tl=909, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:54:53] [Server thread/INFO]: .soso16akym has made the advancement [Surge Protector]
+[04:54:53] [Server thread/INFO]: bananaumaiyo has made the advancement [Surge Protector]
+[04:55:07] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:07] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/507, uuid='8d27a830-3503-4287-a9ce-19c264de22ed', l='ServerLevel[VD-Quarry]', x=2.23, y=80.00, z=1.51, cpos=[0, 0], tl=1195, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by .soso16akym
+[04:55:08] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:08] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:08] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, nice!
+[04:55:08] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:08] [Server thread/INFO]: [Not Secure] [Server] Nice try %PLAYER%...
+[04:55:08] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:08] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, good job!
+[04:55:08] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, nice!
+[04:55:08] [Server thread/INFO]: [Not Secure] [Server] Nice try %PLAYER%...
+[04:55:08] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, good job!
+[04:55:33] [Server thread/INFO]: [Not Secure] [Server] Wave started
+[04:55:33] [Server thread/INFO]: [Not Secure] [Server] Wave started
+[04:55:38] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:38] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/533, uuid='5c0fb7ed-031e-4763-86e3-6da3941d286a', l='ServerLevel[VD-Quarry]', x=-9.23, y=80.00, z=-6.06, cpos=[-1, -1], tl=85, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:55:38] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:38] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/536, uuid='2938e142-6641-4706-a9eb-1f196eacf3bc', l='ServerLevel[VD-Quarry]', x=-9.02, y=80.00, z=-6.79, cpos=[-1, -1], tl=86, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:55:38] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:38] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/534, uuid='f4409be9-5de2-4d69-8e9d-b9ca3a27be80', l='ServerLevel[VD-Quarry]', x=-10.50, y=80.00, z=-9.07, cpos=[-1, -1], tl=90, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:55:39] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:39] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/537, uuid='e71c020b-d044-48da-ba08-1deaa7060e26', l='ServerLevel[VD-Quarry]', x=15.89, y=80.00, z=-3.45, cpos=[0, -1], tl=98, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by .soso16akym
+[04:55:39] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:39] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/539, uuid='2a18aca8-55c0-450b-9c53-7476cfc8d2d2', l='ServerLevel[VD-Quarry]', x=-9.50, y=80.00, z=-24.95, cpos=[-1, -2], tl=100, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:55:39] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:39] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/538, uuid='8097ad58-38ee-43b3-8209-a8b15754747f', l='ServerLevel[VD-Quarry]', x=-9.50, y=80.00, z=-26.76, cpos=[-1, -2], tl=103, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:55:46] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:46] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:46] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/544, uuid='70419090-29f5-4673-804f-cb0daf5f4572', l='ServerLevel[VD-Quarry]', x=-8.40, y=80.00, z=-19.30, cpos=[-1, -2], tl=248, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:55:49] [Server thread/WARN]: .soso16akym moved too quickly! -10.279508404826045,0.0,-2.6595055743619542
+[04:55:49] [Server thread/WARN]: .soso16akym moved too quickly! 10.287263404826044,0.0,2.6032227743619543
+[04:55:49] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:49] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/545, uuid='445b490f-daa4-4949-809f-80157cab59a0', l='ServerLevel[VD-Quarry]', x=-10.48, y=80.00, z=-16.43, cpos=[-1, -2], tl=314, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:55:57] [Server thread/INFO]: Villager EntityVillager['Ivan'/458, uuid='b32f66f3-6b1a-43dd-9830-015f53965ab4', l='ServerLevel[VD-Quarry]', x=19.18, y=80.00, z=31.23, cpos=[1, 1], tl=5564, v=true] died, message: 'Ivan was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[04:55:57] [Server thread/INFO]: Villager EntityVillager['Ivan'/458, uuid='b32f66f3-6b1a-43dd-9830-015f53965ab4', l='ServerLevel[VD-Quarry]', x=19.18, y=80.00, z=31.23, cpos=[1, 1], tl=5564, v=false, removed=DISCARDED] died, message: 'Ivan died because of ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[04:55:57] [Server thread/INFO]: Named entity EntityVillager['Ivan'/458, uuid='b32f66f3-6b1a-43dd-9830-015f53965ab4', l='ServerLevel[VD-Quarry]', x=19.18, y=80.00, z=31.23, cpos=[1, 1], tl=5564, v=false, removed=DISCARDED] died: Ivan was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||
+[04:55:57] [Server thread/INFO]: [Not Secure] [Server] Protect the villager better next time!
+[04:55:59] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:55:59] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/541, uuid='ee62c6f2-e7ef-4002-817a-762dcee93a84', l='ServerLevel[VD-Quarry]', x=14.22, y=80.00, z=0.80, cpos=[0, 0], tl=517, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:56:00] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:56:00] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/542, uuid='c2172485-930a-4f5b-a121-a9291fc71872', l='ServerLevel[VD-Quarry]', x=14.66, y=80.00, z=3.46, cpos=[0, 0], tl=530, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:56:06] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:56:06] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/543, uuid='8fbe5295-e634-4c7e-b065-8b8996640e27', l='ServerLevel[VD-Quarry]', x=6.44, y=80.00, z=-1.02, cpos=[0, -1], tl=648, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:56:10] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:56:10] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/540, uuid='f8bf6723-aabe-46a5-8308-ad1bbf382be2', l='ServerLevel[VD-Quarry]', x=5.09, y=80.00, z=-5.83, cpos=[0, -1], tl=737, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:56:11] [Server thread/INFO]: Villager EntityVillager['Elliot'/459, uuid='3c144098-9e55-4043-b680-1ec265951094', l='ServerLevel[VD-Quarry]', x=-18.01, y=80.00, z=31.52, cpos=[-2, 1], tl=5856, v=true] died, message: 'Elliot was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[04:56:11] [Server thread/INFO]: Villager EntityVillager['Elliot'/459, uuid='3c144098-9e55-4043-b680-1ec265951094', l='ServerLevel[VD-Quarry]', x=-18.01, y=80.00, z=31.52, cpos=[-2, 1], tl=5856, v=false, removed=DISCARDED] died, message: 'Elliot died because of ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[04:56:11] [Server thread/INFO]: Named entity EntityVillager['Elliot'/459, uuid='3c144098-9e55-4043-b680-1ec265951094', l='ServerLevel[VD-Quarry]', x=-18.01, y=80.00, z=31.52, cpos=[-2, 1], tl=5856, v=false, removed=DISCARDED] died: Elliot was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||
+[04:56:11] [Server thread/INFO]: [Not Secure] [Server] Protect the villager better next time!
+[04:56:23] [Server thread/INFO]: [VillageDefense] Loaded inventory of .soso16akym
+[04:56:26] [Server thread/INFO]: Villager EntityVillager['Jagger'/463, uuid='fa59af04-d70d-4387-86a2-adf328db3e2c', l='ServerLevel[VD-Quarry]', x=-22.78, y=80.00, z=26.77, cpos=[-2, 1], tl=6152, v=true] died, message: 'Jagger was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[04:56:26] [Server thread/INFO]: Villager EntityVillager['Jagger'/463, uuid='fa59af04-d70d-4387-86a2-adf328db3e2c', l='ServerLevel[VD-Quarry]', x=-22.78, y=80.00, z=26.77, cpos=[-2, 1], tl=6152, v=false, removed=DISCARDED] died, message: 'Jagger died because of ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[04:56:26] [Server thread/INFO]: Named entity EntityVillager['Jagger'/463, uuid='fa59af04-d70d-4387-86a2-adf328db3e2c', l='ServerLevel[VD-Quarry]', x=-22.78, y=80.00, z=26.77, cpos=[-2, 1], tl=6152, v=false, removed=DISCARDED] died: Jagger was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||
+[04:56:26] [Server thread/INFO]: [Not Secure] [Server] Protect the villager better next time!
+[04:56:33] [Server thread/INFO]: Villager EntityVillager['Nuffley'/464, uuid='895574bc-6cc9-4892-8be3-18eb6b3f7aeb', l='ServerLevel[VD-Quarry]', x=2.11, y=80.00, z=12.80, cpos=[0, 0], tl=6292, v=true] died, message: 'Nuffley was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[04:56:33] [Server thread/INFO]: Villager EntityVillager['Nuffley'/464, uuid='895574bc-6cc9-4892-8be3-18eb6b3f7aeb', l='ServerLevel[VD-Quarry]', x=2.11, y=80.00, z=12.80, cpos=[0, 0], tl=6292, v=false, removed=DISCARDED] died, message: 'Nuffley died because of ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[04:56:33] [Server thread/INFO]: Named entity EntityVillager['Nuffley'/464, uuid='895574bc-6cc9-4892-8be3-18eb6b3f7aeb', l='ServerLevel[VD-Quarry]', x=2.11, y=80.00, z=12.80, cpos=[0, 0], tl=6292, v=false, removed=DISCARDED] died: Nuffley was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||
+[04:56:33] [Server thread/INFO]: [Not Secure] [Server] Protect the villager better next time!
+[04:56:36] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:56:36] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/535, uuid='a1e843d5-f9e5-49a1-b5b2-3a447b69c097', l='ServerLevel[VD-Quarry]', x=10.62, y=80.00, z=9.55, cpos=[0, 0], tl=1244, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:56:37] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:56:37] [Server thread/INFO]: [Not Secure] [Server] Nice try %PLAYER%...
+[04:56:37] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:56:37] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, good job!
+[04:56:37] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, nice!
+[04:56:58] [Server thread/INFO]: bananaumaiyo issued server command: /tp .soso16akym ~ ~ ~
+[04:56:58] [Server thread/INFO]: [bananaumaiyo: Teleported .soso16akym to 8.968530, 80.000000, 28.852250]
+[04:56:58] [Server thread/WARN]: .soso16akym moved too quickly! 20.947792310552888,-10.001342822265627,-19.979749569423756
+[04:56:58] [Server thread/WARN]: .soso16akym moved too quickly! 20.947792526739413,-10.001339999999999,-19.97974953353508
+[04:57:02] [Server thread/INFO]: [Not Secure] [Server] Wave started
+[04:57:21] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:57:21] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:57:21] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/612, uuid='9d338a95-758b-4a85-b6d2-03db527a5c34', l='ServerLevel[VD-Quarry]', x=5.63, y=80.00, z=-19.89, cpos=[0, -2], tl=368, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:57:26] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:57:26] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/614, uuid='0f02b477-4d8d-42d8-88b4-2c3592f16ac4', l='ServerLevel[VD-Quarry]', x=-8.63, y=80.00, z=-5.86, cpos=[-1, -1], tl=462, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:57:30] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:57:30] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/613, uuid='e8b2cbef-d9b4-45bf-88c8-c384d974fb92', l='ServerLevel[VD-Quarry]', x=-6.48, y=80.00, z=0.47, cpos=[-1, 0], tl=555, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:57:52] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:57:52] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:57:52] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/609, uuid='4aa68ee3-e2c3-4568-8cea-d957020b8486', l='ServerLevel[VD-Quarry]', x=-11.05, y=80.00, z=17.70, cpos=[-1, 1], tl=984, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:57:56] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:57:56] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/608, uuid='add34c22-db05-430c-8d7d-a53462b76047', l='ServerLevel[VD-Quarry]', x=-8.93, y=80.00, z=20.65, cpos=[-1, 1], tl=1066, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:58:10] [Server thread/INFO]: Villager EntityVillager['Buckley'/460, uuid='55e711e9-073e-4ef0-89b5-60664b916273', l='ServerLevel[VD-Quarry]', x=-5.40, y=83.00, z=19.39, cpos=[-1, 1], tl=8228, v=true] died, message: 'Buckley was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[04:58:10] [Server thread/INFO]: Villager EntityVillager['Buckley'/460, uuid='55e711e9-073e-4ef0-89b5-60664b916273', l='ServerLevel[VD-Quarry]', x=-5.40, y=83.00, z=19.39, cpos=[-1, 1], tl=8228, v=false, removed=DISCARDED] died, message: 'Buckley died because of ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[04:58:10] [Server thread/INFO]: Named entity EntityVillager['Buckley'/460, uuid='55e711e9-073e-4ef0-89b5-60664b916273', l='ServerLevel[VD-Quarry]', x=-5.40, y=83.00, z=19.39, cpos=[-1, 1], tl=8228, v=false, removed=DISCARDED] died: Buckley was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||
+[04:58:10] [Server thread/INFO]: [Not Secure] [Server] Protect the villager better next time!
+[04:58:11] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:58:11] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/611, uuid='5f18bc86-d89a-4d25-ab41-113545c9e8c4', l='ServerLevel[VD-Quarry]', x=-13.62, y=80.00, z=20.47, cpos=[-1, 1], tl=1370, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:58:13] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:58:13] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/606, uuid='d9619e9e-7f36-4c7a-a480-fe0543603e5c', l='ServerLevel[VD-Quarry]', x=-8.04, y=80.92, z=21.68, cpos=[-1, 1], tl=1417, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:58:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:58:14] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/610, uuid='0de8cedc-e2ed-4b43-a585-eb9e91c3bde3', l='ServerLevel[VD-Quarry]', x=-6.66, y=82.00, z=21.62, cpos=[-1, 1], tl=1420, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:58:15] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:58:15] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/607, uuid='c33e6224-e7b7-4237-8d51-93e249f6ca13', l='ServerLevel[VD-Quarry]', x=-6.13, y=82.00, z=21.33, cpos=[-1, 1], tl=1448, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:58:16] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:58:16] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:58:16] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, good job!
+[04:58:16] [Server thread/INFO]: [Not Secure] [Server] Nice try %PLAYER%...
+[04:58:16] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, nice!
+[04:58:41] [Server thread/INFO]: [Not Secure] [Server] Wave started
+[04:58:53] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:58:53] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/650, uuid='21ad6708-aefe-4dbd-8fe9-2b8531e63501', l='ServerLevel[VD-Quarry]', x=-10.67, y=80.00, z=-22.54, cpos=[-1, -2], tl=223, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:58:53] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:58:53] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/652, uuid='8743c56f-5f15-47d7-bf6d-65e7612f9aa0', l='ServerLevel[VD-Quarry]', x=-10.67, y=80.00, z=-26.08, cpos=[-1, -2], tl=230, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:58:56] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:58:56] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/657, uuid='36ecdbd6-252b-4e4d-b5d6-a124b01feb5e', l='ServerLevel[VD-Quarry]', x=-10.61, y=80.00, z=-25.99, cpos=[-1, -2], tl=293, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:59:09] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:59:09] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/658, uuid='6d46c8c0-ce54-40a9-a906-7e4c24bedbb4', l='ServerLevel[VD-Quarry]', x=19.15, y=80.00, z=-1.33, cpos=[1, -1], tl=552, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:59:10] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:59:10] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/651, uuid='2a12cbf5-1b7c-4f45-8519-bf10c0e46a1b', l='ServerLevel[VD-Quarry]', x=21.70, y=80.00, z=0.70, cpos=[1, 0], tl=572, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:59:17] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:59:17] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/653, uuid='aac7a63b-1e60-4153-9b70-1773007d6c12', l='ServerLevel[VD-Quarry]', x=17.50, y=81.00, z=5.26, cpos=[1, 0], tl=713, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:59:18] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:59:18] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/654, uuid='bebf9893-5df1-417b-8df0-9f9b0c3d8d0a', l='ServerLevel[VD-Quarry]', x=17.71, y=81.00, z=3.97, cpos=[1, 0], tl=737, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:59:19] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:59:19] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/655, uuid='aa994734-ad70-4eff-bd91-62a4cb502c6b', l='ServerLevel[VD-Quarry]', x=16.96, y=81.00, z=4.11, cpos=[1, 0], tl=738, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:59:21] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:59:21] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/656, uuid='5b71c180-f496-4cbf-9091-75ada39d3b97', l='ServerLevel[VD-Quarry]', x=17.57, y=81.00, z=5.00, cpos=[1, 0], tl=797, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:59:21] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/660, uuid='75d22879-0659-4298-a7d9-2d01db90d531', l='ServerLevel[VD-Quarry]', x=16.01, y=80.00, z=2.39, cpos=[1, 0], tl=798, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by .soso16akym
+[04:59:22] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:59:22] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/649, uuid='63d045bb-85d3-4bfe-b1f2-42cabfeeb8f2', l='ServerLevel[VD-Quarry]', x=19.24, y=81.00, z=5.33, cpos=[1, 0], tl=812, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:59:24] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:59:24] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/659, uuid='6092b60b-8c96-44f0-a3c0-4e8277f56a8c', l='ServerLevel[VD-Quarry]', x=16.60, y=81.00, z=6.43, cpos=[1, 0], tl=840, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:59:24] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:59:24] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/661, uuid='4c383694-a9eb-4f89-bc95-8acd2dd0d4f5', l='ServerLevel[VD-Quarry]', x=18.71, y=81.00, z=6.55, cpos=[1, 0], tl=855, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[04:59:25] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:59:25] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[04:59:25] [Server thread/INFO]: [Not Secure] [Server] Nice try %PLAYER%...
+[04:59:25] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, good job!
+[04:59:25] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, nice!
+[04:59:50] [Server thread/INFO]: [Not Secure] [Server] Wave started
+[05:00:10] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:00:10] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/712, uuid='e78ef31b-b8df-4569-87cb-0a7d7df2810d', l='ServerLevel[VD-Quarry]', x=4.50, y=80.00, z=-5.82, cpos=[0, -1], tl=378, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[05:00:10] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:00:10] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/710, uuid='2955e2c3-0e1f-4704-9f4e-32025db35a65', l='ServerLevel[VD-Quarry]', x=5.50, y=80.00, z=-6.03, cpos=[0, -1], tl=380, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[05:00:18] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/711, uuid='a568c8d6-6f67-4d51-b4ad-01aadd4cd105', l='ServerLevel[VD-Quarry]', x=15.22, y=80.00, z=1.87, cpos=[0, 0], tl=553, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| blew up
+[05:00:18] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/715, uuid='5adf2572-218c-4faf-865a-79d50cdc5e02', l='ServerLevel[VD-Quarry]', x=5.46, y=80.00, z=2.50, cpos=[0, 0], tl=553, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| blew up
+[05:00:18] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/713, uuid='ad6f1e20-07f1-43fe-9e58-e87ececb18fd', l='ServerLevel[VD-Quarry]', x=15.99, y=80.00, z=1.18, cpos=[0, 0], tl=553, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| blew up
+[05:00:19] [Server thread/INFO]: bananaumaiyo has made the advancement [Acquire Hardware]
+[05:00:21] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:00:21] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:00:21] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/720, uuid='35d222cf-6926-42ce-9e96-e7c909b28cf9', l='ServerLevel[VD-Quarry]', x=19.75, y=81.00, z=6.03, cpos=[1, 0], tl=608, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[05:00:22] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:00:22] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/722, uuid='e0e39f98-9724-4527-9cba-486823fdf001', l='ServerLevel[VD-Quarry]', x=20.41, y=81.00, z=4.05, cpos=[1, 0], tl=636, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[05:00:25] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:00:25] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/714, uuid='1c028d59-5b59-4967-9029-46ef36be3934', l='ServerLevel[VD-Quarry]', x=11.70, y=81.00, z=4.52, cpos=[0, 0], tl=683, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[05:00:31] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:00:31] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/723, uuid='e53f4df7-53ad-4fa0-872b-4ed2d26da252', l='ServerLevel[VD-Quarry]', x=-15.27, y=80.00, z=16.56, cpos=[-1, 1], tl=808, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[05:00:32] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:00:32] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:00:32] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/718, uuid='316de893-39d9-463b-b97b-8a7ebc420310', l='ServerLevel[VD-Quarry]', x=-13.16, y=80.00, z=17.05, cpos=[-1, 1], tl=827, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[05:00:36] [Server thread/INFO]: Villager EntityVillager['Eadwig'/462, uuid='63ae1dc5-5691-4d44-b760-61c5dc114e30', l='ServerLevel[VD-Quarry]', x=-20.57, y=80.00, z=18.09, cpos=[-2, 1], tl=11152, v=true] died, message: 'Eadwig was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[05:00:36] [Server thread/INFO]: Villager EntityVillager['Eadwig'/462, uuid='63ae1dc5-5691-4d44-b760-61c5dc114e30', l='ServerLevel[VD-Quarry]', x=-20.57, y=80.00, z=18.09, cpos=[-2, 1], tl=11152, v=false, removed=DISCARDED] died, message: 'Eadwig died because of ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[05:00:36] [Server thread/INFO]: Named entity EntityVillager['Eadwig'/462, uuid='63ae1dc5-5691-4d44-b760-61c5dc114e30', l='ServerLevel[VD-Quarry]', x=-20.57, y=80.00, z=18.09, cpos=[-2, 1], tl=11152, v=false, removed=DISCARDED] died: Eadwig was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||
+[05:00:36] [Server thread/INFO]: [Not Secure] [Server] Protect the villager better next time!
+[05:00:37] [Server thread/INFO]: Villager EntityVillager['Harry'/461, uuid='509b0097-ffd5-4e06-94ea-ea5d96c5506c', l='ServerLevel[VD-Quarry]', x=27.05, y=80.00, z=31.18, cpos=[1, 1], tl=11173, v=true] died, message: 'Harry was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[05:00:37] [Server thread/INFO]: Villager EntityVillager['Harry'/461, uuid='509b0097-ffd5-4e06-94ea-ea5d96c5506c', l='ServerLevel[VD-Quarry]', x=27.05, y=80.00, z=31.18, cpos=[1, 1], tl=11173, v=false, removed=DISCARDED] died, message: 'Harry died because of ||||||||||||||||||||||||||||||||||||||||||||||||||'
+[05:00:37] [Server thread/INFO]: Named entity EntityVillager['Harry'/461, uuid='509b0097-ffd5-4e06-94ea-ea5d96c5506c', l='ServerLevel[VD-Quarry]', x=27.05, y=80.00, z=31.18, cpos=[1, 1], tl=11173, v=false, removed=DISCARDED] died: Harry was slain by ||||||||||||||||||||||||||||||||||||||||||||||||||
+[05:00:37] [Server thread/INFO]: [Not Secure] [Server] Protect the villager better next time!
+[05:00:42] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:00:42] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/721, uuid='f9b4a967-74e2-4216-95f0-b0f6436a0737', l='ServerLevel[VD-Quarry]', x=-7.18, y=80.00, z=15.18, cpos=[-1, 0], tl=1033, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[05:00:46] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:00:46] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:00:46] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/724, uuid='d11f20ce-dc90-4f87-81cc-20829274685c', l='ServerLevel[VD-Quarry]', x=-9.66, y=80.00, z=9.30, cpos=[-1, 0], tl=1101, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[05:00:58] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:00:58] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/717, uuid='386ebb7a-20a7-42af-9754-ad2f161b5624', l='ServerLevel[VD-Quarry]', x=-20.56, y=80.00, z=-5.11, cpos=[-2, -1], tl=1353, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[05:01:19] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:01:19] [Server thread/INFO]: Named entity EntityZombie['||||||||||||||||||||||||||||||||||||||||||||||||||'/719, uuid='d82ea660-c39b-42ef-b292-55a833464610', l='ServerLevel[VD-Quarry]', x=26.70, y=81.86, z=9.20, cpos=[1, 0], tl=1765, v=true] died: |||||||||||||||||||||||||||||||||||||||||||||||||| was slain by bananaumaiyo using [§7Magic wand]
+[05:01:20] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:01:20] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:01:20] [Server thread/INFO]: [Not Secure] [Server] Nice try %PLAYER%...
+[05:01:20] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, good job!
+[05:01:20] [Server thread/INFO]: [Not Secure] [Server] You reached wave %WAVE%, nice!
+[05:01:32] [Server thread/INFO]: bananaumaiyo issued server command: /vd leave
+[05:01:32] [Server thread/INFO]: [VillageDefense] Loaded inventory of bananaumaiyo
+[05:01:40] [Server thread/INFO]: bananaumaiyo issued server command: /tp .soso16akym ~ ~ ~]
+[05:01:42] [Server thread/INFO]: bananaumaiyo issued server command: /tp .soso16akym ~ ~ ~
+[05:01:42] [Server thread/INFO]: [bananaumaiyo: Teleported .soso16akym to -24.958698, 91.500000, 42.181758]
+[05:01:42] [Server thread/WARN]: .soso16akym moved too quickly! -35.67924015542481,11.5,43.88173812835723
+[05:01:42] [Server thread/WARN]: .soso16akym moved too quickly! -35.67924010946533,11.5,43.881747699203785
+[05:01:42] [Server thread/WARN]: .soso16akym moved too quickly! -35.67924010946533,11.5,43.881747699203785
+[05:01:42] [Server thread/WARN]: .soso16akym moved too quickly! -35.67924010946533,11.5,43.881747699203785
+[05:01:42] [Server thread/WARN]: .soso16akym moved too quickly! -35.67924010946533,11.5,43.881747699203785
+[05:02:12] [Async Chat Thread - #13/INFO]: <bananaumaiyo> ./tb arenas
+[05:02:15] [Server thread/INFO]: .soso16akym issued server command: /tp .soso16akym .bananaumaiyo
+[05:02:15] [Server thread/INFO]: [.soso16akym: Teleported .soso16akym to .bananaumaiyo]
+[05:02:27] [Server thread/INFO]: bananaumaiyo issued server command: /tb arenas
+[05:02:29] [Server thread/INFO]: [TheBridge] Saved inventory of bananaumaiyo
+[05:02:32] [Async Chat Thread - #13/INFO]: [1][Bridge] bananaumaiyo | ./tb arenas
+[05:02:45] [Server thread/INFO]: .soso16akym fell out of the world
+[05:02:50] [Async Chat Thread - #13/INFO]: [1][Bridge] bananaumaiyo | ./tb arenas
+[05:02:52] [Server thread/INFO]: [TheBridge] Loaded inventory of bananaumaiyo
+[05:02:53] [Async Chat Thread - #11/INFO]: <bananaumaiyo> ./tb arenas
+[05:02:54] [Async Chat Thread - #11/INFO]: <bananaumaiyo> ./tb arenas
+[05:02:54] [Async Chat Thread - #11/INFO]: <bananaumaiyo> ./tb arenas
+[05:02:55] [Async Chat Thread - #11/INFO]: <bananaumaiyo> ./tb arenas
+[05:02:55] [Async Chat Thread - #11/INFO]: <bananaumaiyo> ./tb arenas
+[05:03:02] [Server thread/INFO]: .soso16akym issued server command: /tp .soso16akym .bananaumaiyo
+[05:03:02] [Server thread/INFO]: [.soso16akym: Teleported .soso16akym to .bananaumaiyo]
+[05:03:17] [Server thread/INFO]: [TheBridge] Saved inventory of bananaumaiyo
+[05:03:21] [Async Chat Thread - #13/INFO]: [1][Bridge] bananaumaiyo | ./tb arenas
+[05:03:39] [Async Chat Thread - #13/INFO]: [1][Bridge] bananaumaiyo | ./tb arenas
+[05:04:15] [Server thread/INFO]: [TheBridge] Loaded inventory of bananaumaiyo
+[05:04:17] [Server thread/INFO]: .soso16akym issued server command: /tb arenes
+[05:04:22] [Server thread/INFO]: bananaumaiyo issued server command: /tb arenas
+[05:04:35] [Async Chat Thread - #13/INFO]: <bananaumaiyo> ./tb arenas
+[05:04:52] [Server thread/INFO]: bananaumaiyo issued server command: /tb arenas
+[05:05:19] [Server thread/INFO]: .soso16akym issued server command: /tb arenas
+[05:05:24] [Server thread/INFO]: [TheBridge] Saved inventory of .soso16akym
+[05:05:25] [Server thread/INFO]: [TheBridge] Saved inventory of bananaumaiyo
+[05:05:35] [Server thread/ERROR]: Could not pass event InventoryClickEvent to TheBridge v2.1.4
+java.lang.IncompatibleClassChangeError: Found class org.bukkit.inventory.InventoryView, but interface was expected
+	at plugily.projects.thebridge.minigamesbox.classic.events.Events.onItemMove(Events.java:144) ~[thebridge-2.1.4.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor60.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:git-Paper-17]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3197) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:58) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:23) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1339) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1316) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1309) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1287) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[05:05:35] [Server thread/ERROR]: Could not pass event InventoryClickEvent to TheBridge v2.1.4
+java.lang.IncompatibleClassChangeError: Found class org.bukkit.inventory.InventoryView, but interface was expected
+	at plugily.projects.thebridge.arena.ArenaEvents.onItemMove(ArenaEvents.java:616) ~[thebridge-2.1.4.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor84.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:git-Paper-17]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.20.jar:git-Paper-17]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[paper-1.20.jar:git-Paper-17]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[paper-api-1.20-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3197) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:58) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:23) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1339) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1316) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1309) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1287) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175) ~[paper-1.20.jar:git-Paper-17]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/WARN]: .soso16akym moved too quickly! 115.11503000000002,4.0,-46.35066
+[05:06:26] [Server thread/INFO]: .soso16akym has made the advancement [Suit Up]
+[05:07:25] [Server thread/WARN]: .soso16akym moved too quickly! -5.9645399999999995,6.0,-45.76971
+[05:07:25] [Server thread/WARN]: .soso16akym moved too quickly! -5.9645399999999995,6.0,-45.76971
+[05:07:25] [Server thread/WARN]: .soso16akym moved too quickly! -5.9645399999999995,6.0,-45.76971
+[05:08:04] [Server thread/WARN]: .soso16akym moved too quickly! -6.148779999999988,6.0,-56.395199000000005
+[05:08:04] [Server thread/WARN]: .soso16akym moved too quickly! -6.148779999999988,6.0,-56.395199000000005
+[05:08:04] [Server thread/WARN]: .soso16akym moved too quickly! -6.148779999999988,6.0,-56.395199000000005
+[05:08:04] [Server thread/WARN]: .soso16akym moved too quickly! -6.148779999999988,6.0,-56.395199000000005
+[05:08:04] [Server thread/WARN]: .soso16akym moved too quickly! -6.148779999999988,6.0,-56.395199000000005
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:08:23] [Server thread/WARN]: .soso16akym moved too quickly! -1.624920000000003,107.70549,-26.520740000000004
+[05:09:07] [Server thread/WARN]: .soso16akym moved too quickly! 11.684159999999991,110.54183,-66.164626
+[05:09:07] [Server thread/WARN]: .soso16akym moved too quickly! 11.684159999999991,110.54183,-66.164626
+[05:09:07] [Server thread/WARN]: .soso16akym moved too quickly! 11.684159999999991,110.54183,-66.164626
+[05:09:07] [Server thread/WARN]: .soso16akym moved too quickly! 11.684159999999991,110.54183,-66.164626
+[05:09:07] [Server thread/WARN]: .soso16akym moved too quickly! 11.684159999999991,110.54183,-66.164626
+[05:09:07] [Server thread/WARN]: .soso16akym moved too quickly! 11.684159999999991,110.54183,-66.164626
+[05:09:07] [Server thread/WARN]: .soso16akym moved too quickly! 11.684159999999991,110.54183,-66.164626
+[05:09:07] [Server thread/WARN]: .soso16akym moved too quickly! 11.684159999999991,110.54183,-66.164626
+[05:09:07] [Server thread/WARN]: .soso16akym moved too quickly! 11.684159999999991,110.54183,-66.164626
+[05:09:07] [Server thread/WARN]: .soso16akym moved too quickly! 11.684159999999991,110.54183,-66.164626
+[05:09:07] [Server thread/WARN]: .soso16akym moved too quickly! 11.684159999999991,110.54183,-66.164626
+[05:09:34] [Server thread/WARN]: .soso16akym moved too quickly! 1.0511800000000164,110.54183,-43.698240000000006
+[05:09:34] [Server thread/WARN]: .soso16akym moved too quickly! 1.0511800000000164,110.54183,-43.698240000000006
+[05:09:34] [Server thread/WARN]: .soso16akym moved too quickly! 1.0511800000000164,110.54183,-43.698240000000006
+[05:09:34] [Server thread/WARN]: .soso16akym moved too quickly! 1.0511800000000164,110.54183,-43.698240000000006
+[05:09:34] [Server thread/WARN]: .soso16akym moved too quickly! 1.0511800000000164,110.54183,-43.698240000000006
+[05:09:34] [Server thread/WARN]: .soso16akym moved too quickly! 1.0511800000000164,110.54183,-43.698240000000006
+[05:09:34] [Server thread/WARN]: .soso16akym moved too quickly! 1.0511800000000164,110.54183,-43.698240000000006
+[05:09:34] [Server thread/WARN]: .soso16akym moved too quickly! 1.0511800000000164,110.54183,-43.698240000000006
+[05:09:34] [Server thread/WARN]: .soso16akym moved too quickly! 1.0511800000000164,110.54183,-43.698240000000006
+[05:09:34] [Server thread/WARN]: .soso16akym moved too quickly! 1.0511800000000164,110.54183,-43.698240000000006
+[05:10:14] [Server thread/INFO]: bananaumaiyo has made the advancement [Take Aim]
+[05:10:52] [Server thread/WARN]: .soso16akym moved too quickly! -2.9695700000000045,0.0,-98.732945
+[05:10:52] [Server thread/WARN]: .soso16akym moved too quickly! -2.9695700000000045,0.0,-98.732945
+[05:10:52] [Server thread/WARN]: .soso16akym moved too quickly! -2.9695700000000045,0.0,-98.732945
+[05:10:52] [Server thread/WARN]: .soso16akym moved too quickly! -2.9695700000000045,0.0,-98.732945
+[05:10:52] [Server thread/WARN]: .soso16akym moved too quickly! -2.9695700000000045,0.0,-98.732945
+[05:10:52] [Server thread/WARN]: .soso16akym moved too quickly! -2.9695700000000045,0.0,-98.732945
+[05:10:52] [Server thread/WARN]: .soso16akym moved too quickly! -2.9695700000000045,0.0,-98.732945
+[05:10:52] [Server thread/WARN]: .soso16akym moved too quickly! -2.9695700000000045,0.0,-98.732945
+[05:10:52] [Server thread/WARN]: .soso16akym moved too quickly! -2.9695700000000045,0.0,-98.732945
+[05:11:09] [Server thread/WARN]: .soso16akym moved too quickly! 0.22037000000000262,112.51711,-48.315302
+[05:11:09] [Server thread/WARN]: .soso16akym moved too quickly! 0.22037000000000262,112.51711,-48.315302
+[05:11:09] [Server thread/WARN]: .soso16akym moved too quickly! 0.22037000000000262,112.51711,-48.315302
+[05:11:09] [Server thread/WARN]: .soso16akym moved too quickly! 0.22037000000000262,112.51711,-48.315302
+[05:11:09] [Server thread/WARN]: .soso16akym moved too quickly! 0.22037000000000262,112.51711,-48.315302
+[05:11:09] [Server thread/WARN]: .soso16akym moved too quickly! 0.22037000000000262,112.51711,-48.315302
+[05:11:09] [Server thread/WARN]: .soso16akym moved too quickly! 0.22037000000000262,112.51711,-48.315302
+[05:11:09] [Server thread/WARN]: .soso16akym moved too quickly! 0.22037000000000262,112.51711,-48.315302
+[05:11:09] [Server thread/WARN]: .soso16akym moved too quickly! 0.22037000000000262,112.51711,-48.315302
+[05:11:09] [Server thread/WARN]: .soso16akym moved too quickly! 0.22037000000000262,112.51711,-48.315302
+[05:11:09] [Server thread/WARN]: .soso16akym moved too quickly! 0.22037000000000262,112.51711,-48.315302
+[05:11:55] [Server thread/WARN]: .soso16akym moved too quickly! -0.6518099999999833,5.04670999999999,-101.401112
+[05:11:55] [Server thread/WARN]: .soso16akym moved too quickly! -0.6518099999999833,5.04670999999999,-101.401112
+[05:11:55] [Server thread/WARN]: .soso16akym moved too quickly! -0.6518099999999833,5.04670999999999,-101.401112
+[05:11:55] [Server thread/WARN]: .soso16akym moved too quickly! -0.6518099999999833,5.04670999999999,-101.401112
+[05:11:55] [Server thread/WARN]: .soso16akym moved too quickly! -0.6518099999999833,5.04670999999999,-101.401112
+[05:11:55] [Server thread/WARN]: .soso16akym moved too quickly! -0.6518099999999833,5.04670999999999,-101.401112
+[05:11:55] [Server thread/WARN]: .soso16akym moved too quickly! -0.6518099999999833,5.04670999999999,-101.401112
+[05:11:55] [Server thread/WARN]: .soso16akym moved too quickly! -0.6518099999999833,5.04670999999999,-101.401112
+[05:11:55] [Server thread/WARN]: .soso16akym moved too quickly! -0.6518099999999833,5.04670999999999,-101.401112
+[05:12:33] [Server thread/WARN]: .soso16akym moved too quickly! -1.3621499999999855,5.078399999999988,-100.363685
+[05:12:33] [Server thread/WARN]: .soso16akym moved too quickly! -1.3621499999999855,5.078399999999988,-100.363685
+[05:12:33] [Server thread/WARN]: .soso16akym moved too quickly! -1.3621499999999855,5.078399999999988,-100.363685
+[05:12:33] [Server thread/WARN]: .soso16akym moved too quickly! -1.3621499999999855,5.078399999999988,-100.363685
+[05:12:33] [Server thread/WARN]: .soso16akym moved too quickly! -1.3621499999999855,5.078399999999988,-100.363685
+[05:12:33] [Server thread/WARN]: .soso16akym moved too quickly! -1.3621499999999855,5.078399999999988,-100.363685
+[05:12:33] [Server thread/WARN]: .soso16akym moved too quickly! -1.3621499999999855,5.078399999999988,-100.363685
+[05:12:33] [Server thread/WARN]: .soso16akym moved too quickly! -1.3621499999999855,5.078399999999988,-100.363685
+[05:12:33] [Server thread/WARN]: .soso16akym moved too quickly! -1.3621499999999855,5.078399999999988,-100.363685
+[05:13:15] [Server thread/WARN]: .soso16akym moved too quickly! -3.071969999999993,113.02244,-45.681666
+[05:13:15] [Server thread/WARN]: .soso16akym moved too quickly! -3.071969999999993,113.02244,-45.681666
+[05:13:15] [Server thread/WARN]: .soso16akym moved too quickly! -3.071969999999993,113.02244,-45.681666
+[05:13:15] [Server thread/WARN]: .soso16akym moved too quickly! -3.071969999999993,113.02244,-45.681666
+[05:13:15] [Server thread/WARN]: .soso16akym moved too quickly! -3.071969999999993,113.02244,-45.681666
+[05:13:15] [Server thread/WARN]: .soso16akym moved too quickly! -3.071969999999993,113.02244,-45.681666
+[05:13:15] [Server thread/WARN]: .soso16akym moved too quickly! -3.071969999999993,113.02244,-45.681666
+[05:13:15] [Server thread/WARN]: .soso16akym moved too quickly! -3.071969999999993,113.02244,-45.681666
+[05:13:15] [Server thread/WARN]: .soso16akym moved too quickly! -3.071969999999993,113.02244,-45.681666
+[05:13:15] [Server thread/WARN]: .soso16akym moved too quickly! -3.071969999999993,113.02244,-45.681666
+[05:13:15] [Server thread/WARN]: .soso16akym moved too quickly! -3.071969999999993,113.02244,-45.681666
+[05:14:28] [Server thread/WARN]: .soso16akym moved too quickly! -1.1698999999999842,5.078399999999988,-101.44999
+[05:14:28] [Server thread/WARN]: .soso16akym moved too quickly! -1.1698999999999842,5.078399999999988,-101.44999
+[05:14:28] [Server thread/WARN]: .soso16akym moved too quickly! -1.1698999999999842,5.078399999999988,-101.44999
+[05:14:28] [Server thread/WARN]: .soso16akym moved too quickly! -1.1698999999999842,5.078399999999988,-101.44999
+[05:14:28] [Server thread/WARN]: .soso16akym moved too quickly! -1.1698999999999842,5.078399999999988,-101.44999
+[05:14:28] [Server thread/WARN]: .soso16akym moved too quickly! -1.1698999999999842,5.078399999999988,-101.44999
+[05:14:28] [Server thread/WARN]: .soso16akym moved too quickly! -1.1698999999999842,5.078399999999988,-101.44999
+[05:14:28] [Server thread/WARN]: .soso16akym moved too quickly! -1.1698999999999842,5.078399999999988,-101.44999
+[05:14:28] [Server thread/WARN]: .soso16akym moved too quickly! -1.1698999999999842,5.078399999999988,-101.44999
+[05:15:07] [Server thread/WARN]: .soso16akym moved too quickly! -1.0823199999999815,5.078399999999988,-101.15278599999999
+[05:15:07] [Server thread/WARN]: .soso16akym moved too quickly! -1.0823199999999815,5.078399999999988,-101.15278599999999
+[05:15:07] [Server thread/WARN]: .soso16akym moved too quickly! -1.0823199999999815,5.078399999999988,-101.15278599999999
+[05:15:07] [Server thread/WARN]: .soso16akym moved too quickly! -1.0823199999999815,5.078399999999988,-101.15278599999999
+[05:15:07] [Server thread/WARN]: .soso16akym moved too quickly! -1.0823199999999815,5.078399999999988,-101.15278599999999
+[05:15:07] [Server thread/WARN]: .soso16akym moved too quickly! -1.0823199999999815,5.078399999999988,-101.15278599999999
+[05:15:07] [Server thread/WARN]: .soso16akym moved too quickly! -1.0823199999999815,5.078399999999988,-101.15278599999999
+[05:15:07] [Server thread/WARN]: .soso16akym moved too quickly! -1.0823199999999815,5.078399999999988,-101.15278599999999
+[05:15:07] [Server thread/WARN]: .soso16akym moved too quickly! -1.0823199999999815,5.078399999999988,-101.15278599999999
+[05:15:46] [Server thread/WARN]: .soso16akym moved too quickly! -3.0357799999999884,110.67296,-30.672926000000004
+[05:15:46] [Server thread/WARN]: .soso16akym moved too quickly! -3.0357799999999884,110.67296,-30.672926000000004
+[05:15:46] [Server thread/WARN]: .soso16akym moved too quickly! -3.0357799999999884,110.67296,-30.672926000000004
+[05:15:46] [Server thread/WARN]: .soso16akym moved too quickly! -3.0357799999999884,110.67296,-30.672926000000004
+[05:15:46] [Server thread/WARN]: .soso16akym moved too quickly! -3.0357799999999884,110.67296,-30.672926000000004
+[05:15:46] [Server thread/WARN]: .soso16akym moved too quickly! -3.0357799999999884,110.67296,-30.672926000000004
+[05:15:46] [Server thread/WARN]: .soso16akym moved too quickly! -3.0357799999999884,110.67296,-30.672926000000004
+[05:15:46] [Server thread/WARN]: .soso16akym moved too quickly! -3.0357799999999884,110.67296,-30.672926000000004
+[05:15:46] [Server thread/WARN]: .soso16akym moved too quickly! -3.0357799999999884,110.67296,-30.672926000000004
+[05:15:46] [Server thread/WARN]: .soso16akym moved too quickly! -3.0357799999999884,110.67296,-30.672926000000004
+[05:16:27] [Server thread/WARN]: .soso16akym moved too quickly! -3.058879999999988,111.15759,-30.034530000000004
+[05:16:27] [Server thread/WARN]: .soso16akym moved too quickly! -3.058879999999988,111.15759,-30.034530000000004
+[05:16:27] [Server thread/WARN]: .soso16akym moved too quickly! -3.058879999999988,111.15759,-30.034530000000004
+[05:16:27] [Server thread/WARN]: .soso16akym moved too quickly! -3.058879999999988,111.15759,-30.034530000000004
+[05:16:27] [Server thread/WARN]: .soso16akym moved too quickly! -3.058879999999988,111.15759,-30.034530000000004
+[05:16:27] [Server thread/WARN]: .soso16akym moved too quickly! -3.058879999999988,111.15759,-30.034530000000004
+[05:16:27] [Server thread/WARN]: .soso16akym moved too quickly! -3.058879999999988,111.15759,-30.034530000000004
+[05:16:27] [Server thread/WARN]: .soso16akym moved too quickly! -3.058879999999988,111.15759,-30.034530000000004
+[05:16:27] [Server thread/WARN]: .soso16akym moved too quickly! -3.058879999999988,111.15759,-30.034530000000004
+[05:16:27] [Server thread/WARN]: .soso16akym moved too quickly! -3.058879999999988,111.15759,-30.034530000000004
+[05:16:57] [Server thread/WARN]: .soso16akym moved too quickly! -2.538170000000008,112.51711,-39.620135000000005
+[05:16:57] [Server thread/WARN]: .soso16akym moved too quickly! -2.538170000000008,112.51711,-39.620135000000005
+[05:16:57] [Server thread/WARN]: .soso16akym moved too quickly! -2.538170000000008,112.51711,-39.620135000000005
+[05:16:57] [Server thread/WARN]: .soso16akym moved too quickly! -2.538170000000008,112.51711,-39.620135000000005
+[05:16:57] [Server thread/WARN]: .soso16akym moved too quickly! -2.538170000000008,112.51711,-39.620135000000005
+[05:16:57] [Server thread/WARN]: .soso16akym moved too quickly! -2.538170000000008,112.51711,-39.620135000000005
+[05:16:57] [Server thread/WARN]: .soso16akym moved too quickly! -2.538170000000008,112.51711,-39.620135000000005
+[05:16:57] [Server thread/WARN]: .soso16akym moved too quickly! -2.538170000000008,112.51711,-39.620135000000005
+[05:16:57] [Server thread/WARN]: .soso16akym moved too quickly! -2.538170000000008,112.51711,-39.620135000000005
+[05:16:57] [Server thread/WARN]: .soso16akym moved too quickly! -2.538170000000008,112.51711,-39.620135000000005
+[05:17:49] [Server thread/WARN]: .soso16akym moved too quickly! -3.9194300000000055,110.67296,-55.20996
+[05:17:49] [Server thread/WARN]: .soso16akym moved too quickly! -3.9194300000000055,110.67296,-55.20996
+[05:17:49] [Server thread/WARN]: .soso16akym moved too quickly! -3.9194300000000055,110.67296,-55.20996
+[05:17:49] [Server thread/WARN]: .soso16akym moved too quickly! -3.9194300000000055,110.67296,-55.20996
+[05:17:49] [Server thread/WARN]: .soso16akym moved too quickly! -3.9194300000000055,110.67296,-55.20996
+[05:17:49] [Server thread/WARN]: .soso16akym moved too quickly! -3.9194300000000055,110.67296,-55.20996
+[05:17:49] [Server thread/WARN]: .soso16akym moved too quickly! -3.9194300000000055,110.67296,-55.20996
+[05:17:49] [Server thread/WARN]: .soso16akym moved too quickly! -3.9194300000000055,110.67296,-55.20996
+[05:17:49] [Server thread/WARN]: .soso16akym moved too quickly! -3.9194300000000055,110.67296,-55.20996
+[05:17:49] [Server thread/WARN]: .soso16akym moved too quickly! -3.9194300000000055,110.67296,-55.20996
+[05:17:49] [Server thread/WARN]: .soso16akym moved too quickly! -3.9194300000000055,110.67296,-55.20996
+[05:18:41] [Server thread/WARN]: .soso16akym moved too quickly! -2.8222999999999843,111.67296999999999,-31.521853
+[05:18:41] [Server thread/WARN]: .soso16akym moved too quickly! -2.8222999999999843,111.67296999999999,-31.521853
+[05:18:41] [Server thread/WARN]: .soso16akym moved too quickly! -2.8222999999999843,111.67296999999999,-31.521853
+[05:18:41] [Server thread/WARN]: .soso16akym moved too quickly! -2.8222999999999843,111.67296999999999,-31.521853
+[05:18:41] [Server thread/WARN]: .soso16akym moved too quickly! -2.8222999999999843,111.67296999999999,-31.521853
+[05:18:41] [Server thread/WARN]: .soso16akym moved too quickly! -2.8222999999999843,111.67296999999999,-31.521853
+[05:18:41] [Server thread/WARN]: .soso16akym moved too quickly! -2.8222999999999843,111.67296999999999,-31.521853
+[05:18:41] [Server thread/WARN]: .soso16akym moved too quickly! -2.8222999999999843,111.67296999999999,-31.521853
+[05:18:41] [Server thread/WARN]: .soso16akym moved too quickly! -2.8222999999999843,111.67296999999999,-31.521853
+[05:18:41] [Server thread/WARN]: .soso16akym moved too quickly! -2.8222999999999843,111.67296999999999,-31.521853
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:00] [Server thread/WARN]: .soso16akym moved too quickly! -4.7021000000000015,111.67296999999999,-30.301950000000005
+[05:19:16] [Server thread/WARN]: .soso16akym moved too quickly! -5.3115999999999985,111.06622,-26.83437
+[05:19:16] [Server thread/WARN]: .soso16akym moved too quickly! -5.3115999999999985,111.06622,-26.83437
+[05:19:16] [Server thread/WARN]: .soso16akym moved too quickly! -5.3115999999999985,111.06622,-26.83437
+[05:19:16] [Server thread/WARN]: .soso16akym moved too quickly! -5.3115999999999985,111.06622,-26.83437
+[05:19:16] [Server thread/WARN]: .soso16akym moved too quickly! -5.3115999999999985,111.06622,-26.83437
+[05:19:16] [Server thread/WARN]: .soso16akym moved too quickly! -5.3115999999999985,111.06622,-26.83437
+[05:19:16] [Server thread/WARN]: .soso16akym moved too quickly! -5.3115999999999985,111.06622,-26.83437
+[05:19:16] [Server thread/WARN]: .soso16akym moved too quickly! -5.3115999999999985,111.06622,-26.83437
+[05:19:16] [Server thread/WARN]: .soso16akym moved too quickly! -5.3115999999999985,111.06622,-26.83437
+[05:19:16] [Server thread/WARN]: .soso16akym moved too quickly! -5.3115999999999985,111.06622,-26.83437
+[05:19:41] [Server thread/WARN]: .soso16akym moved too quickly! 0.5305800000000147,0.0,11.213449999999995
+[05:19:41] [Server thread/WARN]: .soso16akym moved too quickly! -0.6970599999999934,0.0,-11.290975000000003
+[05:19:48] [Async Chat Thread - #14/INFO]: [1][Bridge] bananaumaiyo | gg
+[05:20:01] [Server thread/INFO]: [TheBridge] Loaded inventory of bananaumaiyo
+[05:20:01] [Server thread/INFO]: [TheBridge] Loaded inventory of .soso16akym
+[05:20:01] [Server thread/WARN]: .soso16akym moved too quickly! -113.10000999999998,-4.0,46.831680000000006
+[05:20:01] [Server thread/WARN]: .soso16akym moved too quickly! -113.10000999999998,-4.0,46.831680000000006
+[05:20:01] [Server thread/WARN]: .soso16akym moved too quickly! -113.10000999999998,-4.0,46.831680000000006
+[05:20:01] [Server thread/WARN]: .soso16akym moved too quickly! -113.10000999999998,-4.0,46.831680000000006
+[05:20:01] [Server thread/WARN]: .soso16akym moved too quickly! -113.10000999999998,-4.0,46.831680000000006
+[05:20:01] [Server thread/WARN]: .soso16akym moved too quickly! -113.10000999999998,-4.0,46.831680000000006
+[05:20:01] [Server thread/WARN]: .soso16akym moved too quickly! -113.10000999999998,-4.0,46.831680000000006
+[05:20:01] [Server thread/WARN]: .soso16akym moved too quickly! -113.10000999999998,-4.0,46.831680000000006
+[05:20:01] [Server thread/WARN]: .soso16akym moved too quickly! -113.10000999999998,-4.0,46.831680000000006
+[05:20:01] [Server thread/WARN]: .soso16akym moved too quickly! -113.10000999999998,-4.0,46.831680000000006
+[05:20:01] [Server thread/WARN]: .soso16akym moved too quickly! -113.10000999999998,-4.0,46.831680000000006
+[05:20:01] [Server thread/WARN]: .soso16akym moved too quickly! -113.10000999999998,-4.0,46.831680000000006
+[05:21:14] [Server thread/INFO]: Stopping the server
+[05:21:14] [Server thread/INFO]: Stopping server
+[05:21:14] [Server thread/INFO]: [VillageDefense] Disabling VillageDefense v4.7.1
+[05:21:14] [Server thread/INFO]: [GeyserUpdater] Disabling GeyserUpdater v1.6.4
+[05:21:14] [Server thread/INFO]: [TheBridge] Disabling TheBridge v2.1.4
+[05:21:14] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[05:21:14] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[05:21:14] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[05:21:14] [Server thread/INFO]: [Geyser-Spigot] Kicking 2 player(s)
+[05:21:14] [Server thread/INFO]: [Geyser-Spigot] soso16akym has disconnected from the Java server because of Geyser Proxy をシャットダウンしています。
+[05:21:14] [Server thread/INFO]: [Geyser-Spigot] bananaumaiyo has disconnected from the Java server because of Geyser Proxy をシャットダウンしています。
+[05:21:14] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .soso16akym disconnected
+[05:21:14] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
+[05:21:14] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .bananaumaiyo disconnected
+[05:21:14] [Server thread/INFO]: [Geyser-Spigot] Disabled extension MCXboxBroadcast
+[05:21:14] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[05:21:14] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.3-SNAPSHOT
+[05:21:14] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[05:21:14] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:21:14] [Server thread/INFO]: Saving players
+[05:21:14] [Server thread/INFO]: .bananaumaiyo lost connection: Server closed
+[05:21:14] [Server thread/INFO]: .bananaumaiyo left the game
+[05:21:14] [Server thread/INFO]: bananaumaiyo lost connection: Server closed
+[05:21:14] [Server thread/INFO]: bananaumaiyo left the game
+[05:21:14] [Server thread/INFO]: .soso16akym lost connection: Server closed
+[05:21:14] [Server thread/INFO]: .soso16akym left the game
+[05:21:14] [WebSocketConnectReadThread-121/INFO]: [Geyser-Spigot] [mcxboxbroadcast] [Primary Session] RTC Websocket disconnected:  (1000)
+[05:21:14] [Server thread/INFO]: Saving worlds
+[05:21:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:21:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:21:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:21:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:21:14] [WebSocketConnectReadThread-83/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Saved 581 block chunks, 98 entity chunks, 0 poi chunks in world 'world' in 0.37s
+[05:21:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:21:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 39 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[05:21:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:21:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[05:21:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:21:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[TB-Fortress]'/minecraft:tb-fortress
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'TB-Fortress'
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'TB-Fortress'
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'TB-Fortress'
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Saved 18 block chunks, 4 entity chunks, 0 poi chunks in world 'TB-Fortress' in 0.02s
+[05:21:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (TB-Fortress): All chunks are saved
+[05:21:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[VD-Quarry]'/minecraft:vd-quarry
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'VD-Quarry'
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'VD-Quarry'
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'VD-Quarry'
+[05:21:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'VD-Quarry' in 0.00s
+[05:21:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (VD-Quarry): All chunks are saved
+[05:21:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:21:15] [Server thread/INFO]: Flushing Chunk IO
+[05:21:15] [Server thread/INFO]: Closing Thread Pool
+[05:21:15] [Server thread/INFO]: Closing Server
